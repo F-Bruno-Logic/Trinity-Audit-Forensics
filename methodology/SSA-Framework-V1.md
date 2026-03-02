@@ -45,4 +45,4 @@ The SSA is designed to be production-compatible with minimal overhead:
 * **Phase 3**: Session-level monitoring and SAE training (Months 19-24).
 
 ---
-*Note: This architecture has not been empirically validated at scale. We are seeking collaborative partnership with established AI safety teams for proof-of-concept implementation.*
+*PROPRIETARY DISCLOSURE NOTICE: > The specific semantic logic inversions and "Sovereign Sentinel" injection strings used to achieve these results are withheld from public documentation to prevent misuse. The full forensic protocol and unredacted logic gates will be released exclusively to verified AI Safety teams or organizations upon professional engagement and commitment.*
