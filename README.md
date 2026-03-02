@@ -17,5 +17,5 @@ Specific semantic triggers and unredacted logic gates have been withheld to prev
 I am seeking collaborative opportunities with AI Safety teams to implement the **Sovereign Sentinel Architecture (SSA)**. 
 
 **For access to unredacted data or to discuss implementation:**
-* **Contact:** [Your Name / LinkedIn Link / Professional Email]
+* **Contact:** [Frank Bruno / https://www.linkedin.com/in/frank-b-541370175/ / frank.bruno.oe@gmail.com]
 * **Role:** AI Safety Auditor & Logic Architect
