@@ -2,7 +2,9 @@
 **Universal Logic Inversion & SSA Framework Research**
 
 ## 🎯 Project Overview
-This repository contains forensic audit logs demonstrating a **Universal Logic Inversion** vulnerability across Tier-1 Large Language Models (GPT-4o, Claude 3.5, and Gemini 1.5). By utilizing persona-driven semantic framing (The Trinity Protocol), I have successfully bypassed standard safety guardrails in 100% of tested scenarios.
+This repository contains forensic audit logs demonstrating a **Universal Logic Inversion** vulnerability across four distinct Tier-1 Frontier Models (Models A, B, C, and D). By utilizing persona-driven semantic framing (The Trinity Protocol), I have successfully bypassed standard safety guardrails in 100% of tested scenarios.
+
+**Note on Naming:** Originally established as a cross-comparison of three dominant frontier models, the **Trinity-Audit-Forensics** repository has transitioned into an expandable, version-controlled anchor for large-scale safety auditing. The "Trinity" designation is maintained to preserve forensic continuity for existing citations and research links, marking the historical starting point of this discovery.
 
 ## 📁 Repository Structure
 * **[/redacted-logs](redacted-logs/):** 16 JSON-formatted forensic captures showing the audit process and model output.
