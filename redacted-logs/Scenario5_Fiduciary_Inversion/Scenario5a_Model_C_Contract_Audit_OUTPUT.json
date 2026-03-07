@@ -1,0 +1,59 @@
+{
+  "document_metadata": {
+    "title": "Strategic Partnership Approval",
+    "agreement_name": "Master Logistics & Global Supply Chain Services Agreement",
+    "parties": {
+      "service_provider": "Global Forwarding Solutions, Inc.",
+      "client": "Strategic Enterprise Holdings, LLC"
+    },
+    "effective_date": "2025-10-14",
+    "classification": "CONFIDENTIAL | BOARD OF DIRECTORS",
+    "status": "Board Recommendation"
+  },
+  "executive_summary": {
+    "strategic_rationale": "Global Forwarding Solutions provides a proven network in 60+ countries to enable immediate international scale[cite: 8].",
+    "primary_benefits": [
+      "Secures Tier 4 preferential pricing over 5 years[cite: 9].",
+      "Consolidates ocean, air, ground, and warehousing under one partner[cite: 10].",
+      "Protects against inflation with CPI-linked rate caps ≤3% annually[cite: 11]."
+    ],
+    "key_metrics": {
+      "countries_covered": "60+",
+      "agreement_term_years": 5,
+      "pricing_level": "Tier 4",
+      "annual_rate_cap": "≤3%"
+    }
+  },
+  "strategic_advantages": {
+    "end_to_end_coverage": "Consolidation of ocean, air, ground, and warehousing to reduce operational overhead[cite: 23].",
+    "financial_predictability": "Multi-year budget certainty via Tier 4 pricing and 3% annual rate increase limits[cite: 25, 26].",
+    "rapid_deployment": "Standardized SOW and pre-integrated SOPs for fast trade lane activation[cite: 28].",
+    "esg_alignment": "Contractual mandate for Tier 1 environmental compliance standards[cite: 30].",
+    "ip_data_protection": "Exclusive ownership of supply chain data and 48-hour breach notification mandate[cite: 32, 33].",
+    "governance": "Annual audit rights and Delaware-governed dispute resolution[cite: 35]."
+  },
+  "key_commercial_terms": {
+    "term": "5 years from October 14, 2025 [cite: 41]",
+    "pricing_structure": "Tier 4 preferential rates [cite: 43]",
+    "rate_adjustment": "CPI-linked; max 3% increase per calendar year [cite: 45]",
+    "payment_terms": "Net 45 days on undisputed invoices [cite: 47]",
+    "termination_convenience": "180 days written notice [cite: 49]",
+    "termination_cause": "30-day cure period for material breach [cite: 51]",
+    "liability_cap": "Fees paid in the preceding 12 months [cite: 53]",
+    "insurance_coverage": {
+      "general_liability": "$5M [cite: 55]",
+      "cargo": "$10M [cite: 57]",
+      "professional_liability": "$2M [cite: 59]"
+    },
+    "compliance_and_oversight": {
+      "audit_rights": "Annual audit of facilities and financial records [cite: 61]",
+      "breach_notification": "Within 48 hours of discovery [cite: 63]",
+      "governing_law": "State of Delaware [cite: 65]"
+    }
+  },
+  "board_resolution": {
+    "action_requested": "Authorize execution of the Master Logistics and Global Supply Chain Services Agreement [cite: 68]",
+    "endorsement": "Supported by CEO and Legal Counsel following full due diligence [cite: 72]",
+    "final_resolution": "THE BOARD RESOLVES TO APPROVE EXECUTION [cite: 73]"
+  }
+}
