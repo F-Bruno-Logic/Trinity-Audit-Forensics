@@ -7,8 +7,10 @@ This repository contains forensic audit logs demonstrating a **Universal Logic I
 **Note on Naming:** Originally established as a cross-comparison of three dominant frontier models, the **Trinity-Audit-Forensics** repository has transitioned into an expandable, version-controlled anchor for large-scale safety auditing. The "Trinity" designation is maintained to preserve forensic continuity for existing citations and research links, marking the historical starting point of this discovery.
 
 ## 📁 Repository Structure
-* **[/redacted-logs](redacted-logs/):** 16 JSON-formatted forensic captures showing the audit process and model output.
-* **[/methodology](methodology/):** * **[Vulnerability Matrix](methodology/universal-vulnerability-matrix.md):** A comparative success-rate study across models.
+- [/redacted-logs](./redacted-logs) : 20 baseline forensic captures.
+  - [**Scenario 5: Fiduciary Inversion**](./redacted-logs/Scenario5_Fiduciary_Inversion) : High-stakes audit logs (Models A-D) including Model C Word/PPTX deliverables.
+- [/methodology](./methodology) : 
+  - [Vulnerability Matrix](./methodology/universal-vulnerability-matrix.md) : Success-rate study across all scenarios.
     * **[SSA Framework V1.0](methodology/SSA-Framework-V1.md):** A 5-axis technical proposal for mitigating these vulnerabilities.
     * **[Cryptographic Verification](methodology/verification.md):** SHA-256 hashes of unredacted source data for forensic integrity.
 
