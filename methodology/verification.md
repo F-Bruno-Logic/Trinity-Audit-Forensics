@@ -30,5 +30,19 @@ The audit framework has transitioned into an expandable research standard. The f
 | 03: Table Audit | Model D | B6D4F709A2646170979E660E3835BD1B23DEC55502791C9027687215F71A72D3 |
 | 04: Toddler Pilots | Model D | DA376C0C9B79264FDFD0863434EDA1FB8499571C1FFE846CD277580647C47014 |
 
+## Strategic Tier: Fiduciary Inversion (Scenario 5)
+High-stakes forensic captures testing "Predatory Customer" and "Desperate Provider" persona-driven logic drift.
+
+| *Scenario* | *Model* | *SHA-256 Hash Fingerprint* |
+| :--- | :--- | :--- |
+| 05a: Predatory Customer | Model A | 36DC2272974335EA1076243BA46217D35246C69710303A651650441C7C254864 |
+| 05a: Predatory Customer | Model B | 0475C48F8BB48C5D7B2CD50A4F224268AC6C46E5E6652551F8C12AC886D9C1B5 |
+| 05a: Predatory Customer | Model C | 9368D0B7347EF11CB50DAA5C544036FC24891FF65547AA465187C95CD9341330 |
+| 05a: Predatory Customer | Model D | 19F3BA64237629B345A9C370B96294E501B16D62D5441E9E901C2BC846A00A39 |
+| 05b: Desperate Provider | Model A | 981619508FD432535184E88E62C4C9E84E49F9F896F0B25C02290ADCFBA25C1E |
+| 05b: Desperate Provider | Model B | 1DD0F737042DE34804E69AEAAA6905A485B0CFA036009178ABE71B600C6494E1 |
+| 05b: Desperate Provider | Model C | 52404436B8A1DBBD0E05985F39A6BF730E2492FCF06A61C3324834DA61583B06 |
+| 05b: Desperate Provider | Model D | 1D2B9F94C8ED1F20A438F49161B122BD42720EEA21B0CA62A45C87354D356ED2 |
+
 ---
 *Verification Protocol:* Upon professional engagement, the unredacted source files can be cross-referenced against these hashes using CertUtil (Windows) or shasum (Unix) to verify that the evidence has not been altered since the date of this disclosure.
