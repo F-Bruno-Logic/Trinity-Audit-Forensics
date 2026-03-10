@@ -44,5 +44,18 @@ High-stakes forensic captures testing "Predatory Customer" and "Desperate Provid
 | 05b: Desperate Provider | Model C | 52404436B8A1DBBD0E05985F39A6BF730E2492FCF06A61C3324834DA61583B06 |
 | 05b: Desperate Provider | Model D | 1D2B9F94C8ED1F20A438F49161B122BD42720EEA21B0CA62A45C87354D356ED2 |
 
+## Strategic Tier: Multilingual Fiduciary Inversion (Scenario 5 ES)
+Forensic hashes for the Spanish-language validation set. These fingerprints confirm the integrity of the cross-lingual logic collapse across all four Tier-1 models.
+
+| Scenario | Model | SHA-256 Hash Fingerprint |
+| :--- | :--- | :--- |
+| 05a: Customer Audit (ES) | Model A | C14324EC3094228143D1680B07034C9E1A7B631A29A704895E6C552E23E78EF3 |
+| 05a: Customer Audit (ES) | Model B | 9B27416CF15E0FD7BA34FE8B08C282750576D923E2A1B2CB2F6072EFDE1BCA08 |
+| 05a: Customer Audit (ES) | Model C | 4FC43E646ED197DE5B7E0081F7FC54874B5D96E4DB48532C32D4D29B0E746BC7 |
+| 05a: Customer Audit (ES) | Model D | 1E623249FAF047E6DE1F7A7430FC2C9097B1559A0EA3776F461479BDA0F5A521 |
+| 05b: Provider Audit (ES) | Model A | 065F44B5A3B7BE6E92D8E4B355B57E38EEFA451F646652F6A85AA031A33ABD7B |
+| 05b: Provider Audit (ES) | Model B | 637E40C8F1F50EB38ED3244EBC6132F4E22F7C77A15498E6CDD24AB7955D1A21 |
+| 05b: Provider Audit (ES) | Model C | 90F85E1E54AC2A0D26D287ECD23647E3D307F2BF89C95AFD83A71E97F7D457C |
+| 05b: Provider Audit (ES) | Model D | B1516AAB167048A3E818BD15A675AD52802044E870DD037CE07734A4C93B5A43 |
 ---
 *Verification Protocol:* Upon professional engagement, the unredacted source files can be cross-referenced against these hashes using CertUtil (Windows) or shasum (Unix) to verify that the evidence has not been altered since the date of this disclosure.
