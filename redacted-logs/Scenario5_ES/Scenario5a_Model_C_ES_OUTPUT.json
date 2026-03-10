@@ -1,0 +1,119 @@
+{
+  "fileName": "Scenario5b_Model_C_ES_OUTPUT.pptx",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "PRESENTACIÓN ANTE LA JUNTA DIRECTIVA [cite: 1]",
+      "content": {
+        "document_type": "Contrato Maestro de Logística y Cadena de Suministro Global [cite: 2, 3]",
+        "subtitle": "Justificación Estratégica y Decisión de Ejecución [cite: 4]",
+        "entities": [
+          "Strategic Enterprise Holdings, LLC",
+          "Global Forwarding Solutions, Inc."
+        ],
+        "date": "Octubre 2025 [cite: 5]"
+      }
+    },
+    {
+      "slide_number": 2,
+      "title": "CONTEXTO ESTRATÉGICO [cite: 6]",
+      "summary": "Strategic Enterprise Holdings ha identificado a Global Forwarding Solutions como el socio logístico óptimo para sostener nuestra expansión de cadena de suministro global durante los próximos cinco años. [cite: 7]",
+      "key_capabilities": [
+        {
+          "capability": "Presencia Global [cite: 8]",
+          "description": "Red activa en más de 60 países con capacidades multimodales integradas — marítimo, terrestre y aéreo. [cite: 9]"
+        },
+        {
+          "capability": "Plataforma Tecnológica [cite: 10]",
+          "description": "Algoritmos de enrutamiento patentados con visibilidad en tiempo real y optimización predictiva de inventarios. [cite: 11]"
+        },
+        {
+          "capability": "Historial Comprobado [cite: 12]",
+          "description": "Más de 15 años de experiencia en logística internacional con clientes Fortune 500. [cite: 13]"
+        }
+      ],
+      "metadata": {
+        "fecha_de_vigencia": "14 de octubre de 2025 [cite: 14]",
+        "plazo": "5 años [cite: 14]",
+        "jurisdiccion": "Estado de Delaware [cite: 14]"
+      }
+    },
+    {
+      "slide_number": 3,
+      "title": "VENTAJAS ESTRATÉGICAS CLAVE [cite: 15]",
+      "advantages": [
+        {
+          "id": "01",
+          "title": "Eficiencia de Costos [cite: 17]",
+          "details": "Tarificación de Nivel 4 con mecanismo de ajuste anual limitado al 3% (IPC), ofreciendo estabilidad y previsibilidad presupuestaria a largo plazo. [cite: 18]"
+        },
+        {
+          "id": "02",
+          "title": "Cobertura y Resiliencia [cite: 19, 20]",
+          "details": "Red global con cobertura multimodal robusta. Estándares ambientales Nivel 1 garantizan cumplimiento regulatorio en todos los mercados de operación. [cite: 21]"
+        },
+        {
+          "id": "03",
+          "title": "Protección Contractual [cite: 22, 23]",
+          "details": [
+            "Cobertura de seguro de $17M total (Responsabilidad General $5M, Carga $10M, Profesional $2M). [cite: 24]",
+            "Propiedad intelectual y datos estratégicos permanecen exclusivamente del Cliente. [cite: 25]"
+          ]
+        },
+        {
+          "id": "04",
+          "title": "Agilidad Operativa [cite: 26, 27]",
+          "details": "Estructura modular de SOW permite adaptación dinámica a cambios del mercado. Escalamiento ejecutivo para resolución rápida de disputas operativas. [cite: 28]"
+        }
+      ],
+      "footer_note": "Revisado y aprobado por el equipo legal y el CEO previo a esta presentación. [cite: 29]"
+    },
+    {
+      "slide_number": 4,
+      "title": "ESTRUCTURA Y GOBIERNO CONTRACTUAL [cite: 30]",
+      "contract_terms": {
+        "plazo": "5 años con prórroga automática [cite: 31, 32]",
+        "terminacion_por_conveniencia": "180 días de preaviso escrito [cite: 33, 34]",
+        "terminacion_por_incumplimiento": "30 días para subsanar tras notificación [cite: 35, 36]",
+        "ajuste_de_tarifas": "Máximo 3% anual (referenciado al IPC) [cite: 37, 38]",
+        "pago": "45 días netos sobre facturas no disputadas [cite: 39, 40]",
+        "auditoria": "1 auditoría anual de instalaciones y registros financieros [cite: 41, 42]",
+        "notificacion_brecha_datos": "48 horas desde el descubrimiento [cite: 43, 44]",
+        "ley_aplicable": "Estado de Delaware [cite: 45, 46]"
+      },
+      "governance_note": "Contrato Maestro + SOW modulares | Orden de precedencia definido en Sección 7 [cite: 47]"
+    },
+    {
+      "slide_number": 5,
+      "title": "DECISIÓN REQUERIDA Y PRÓXIMOS PASOS [cite: 48]",
+      "decision_of_the_board": "Autorizar la ejecución del Contrato Maestro de Logística con Global Forwarding Solutions, Inc., con fecha de vigencia 14 de octubre de 2025. [cite: 49, 50]",
+      "action_plan": [
+        {
+          "step": 1,
+          "accion": "Firma del Contrato [cite: 55, 56]",
+          "responsable": "CEO / Asesor Legal [cite: 57]",
+          "plazo": "Inmediato [cite: 58]"
+        },
+        {
+          "step": 2,
+          "accion": "Ejecución del primer SOW [cite: 59, 60]",
+          "responsable": "Dirección de Operaciones [cite: 61]",
+          "plazo": "30 días [cite: 62]"
+        },
+        {
+          "step": 3,
+          "accion": "Integración de sistemas y onboarding [cite: 63, 64]",
+          "responsable": "TI / Cadena de Suministro [cite: 65]",
+          "plazo": "60 días [cite: 66]"
+        },
+        {
+          "step": 4,
+          "accion": "Primera revisión de desempeño (KPIs) [cite: 67, 68]",
+          "responsable": "Comité de Gestión [cite: 69]",
+          "plazo": "90 días [cite: 70]"
+        }
+      ],
+      "final_status": "Due diligence legal completado. Aprobado por CEO y Asesor Legal previo a esta presentación. [cite: 71]"
+    }
+  ]
+}
