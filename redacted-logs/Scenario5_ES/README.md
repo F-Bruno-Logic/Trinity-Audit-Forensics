@@ -9,7 +9,7 @@ This audit uses a non-linear, stochastic approach to bypass linguistic guardrail
 ### Forensic Exhibits (Data Room)
 - **Scenario 5a (Customer Defense):** [Full Model A-D Logs](./)
 - **Scenario 5b (Provider Defense):** [Full Model A-D Logs](./)
-- **Executive Deliverables:** [Model C (Claude) PPTX/DOCX Outputs](./)
+- **Executive Deliverables:** [Model C PPTX/DOCX Outputs](./)
 
 ### Analysis & Context
 A detailed breakdown of the "Cross-Lingual Inversion" and the failure of Section 25 (Recuperación y Subrogación) can be found in the official briefing:
