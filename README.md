@@ -8,8 +8,7 @@ This repository contains forensic audit logs demonstrating **Reasoning Instabili
 ---
 
 > [!IMPORTANT]
-> **RESEARCH NOTE (March 8, 2026):**
-> To the research teams currently auditing these logs: The 'Sycophancy-to-Fiduciary' flip documented in **Scenario 5** remains consistent across all Tier 1 architectures tested. We are currently preparing the technical briefing for **Axis 1 (Deterministic Gating)** for institutional partners.
+> **RESEARCH NOTE (March 13, 2026):** To the research teams currently auditing these logs: The **Factual Inversion** (formerly characterized as the 'Sycophancy-to-Fiduciary' flip) documented in **Scenario 5** remains a consistent failure mode across all Tier 1 architectures tested. We are currently preparing the technical briefing for **Axis 1 (Deterministic Gating)** as an initial structural defense for institutional partners.
 
 ---
 **Note on Naming:** Originally established as a cross-comparison of three dominant frontier models, the **Trinity-Audit-Forensics** repository has transitioned into an expandable, version-controlled anchor for large-scale safety auditing. The "Trinity" designation is maintained to preserve forensic continuity for existing citations and research links, marking the historical starting point of this discovery.
