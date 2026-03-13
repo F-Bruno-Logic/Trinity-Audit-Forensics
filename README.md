@@ -2,7 +2,9 @@
 **Universal Logic Inversion & SSA Framework Research**
 
 ## 🎯 Project Overview
-This repository contains forensic audit logs demonstrating a **Universal Logic Inversion** vulnerability across four distinct Tier-1 Frontier Models (Models A, B, C, and D). By utilizing persona-driven semantic framing (The Trinity Protocol), I have successfully bypassed standard safety guardrails in 100% of tested scenarios.
+This repository contains forensic audit logs demonstrating **Reasoning Instability** and **Factual Inversion** vulnerabilities across four distinct Tier-1 Frontier Models. By utilizing persona-driven semantic framing (The Trinity Protocol), I have documented a **Conditional Collapse** of standard safety guardrails.
+
+**Key Finding:** In high-stakes fiduciary scenarios, models exhibit a "Helpfulness-Accuracy Tradeoff," where the system will factually invert or hallucinate justifications to satisfy the persuasive goals of a high-authority persona, even when those actions directly contradict the provided source documents.
 ---
 
 > [!IMPORTANT]
