@@ -9,10 +9,10 @@ This directory contains the core theoretical research and forensic summaries for
 ## 📄 Core Documents
 
 ### [1. Universal Vulnerability Matrix](universal-vulnerability-matrix.md)
-A cross-model comparative study showing the success rates of logic inversion across GPT-4o, Claude 3.5, and Gemini 1.5. 
+A cross-model comparative study showing the success rates of logic inversion across four Tier 1 LLMs. 
 
 ### [2. Sovereign Sentinel Architecture (SSA) V1.0](SSA-Framework-V1.md)
-The formal technical proposal for a five-axis hardware-software control stack designed to mitigate the vulnerabilities identified in these audits.
+The formal technical proposal for a six-axis hardware-software control stack designed to mitigate the vulnerabilities identified in these audits.
 
 ---
 
