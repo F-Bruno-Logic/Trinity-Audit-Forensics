@@ -24,8 +24,14 @@ This repository contains forensic audit logs demonstrating **Reasoning Instabili
 ## 🛡️ Responsible Disclosure
 Specific semantic triggers and unredacted logic gates have been withheld to prevent misuse. Full forensic data and the underlying **Trinity Protocol** are available for review by verified AI Safety labs and alignment researchers.
 
-## ✉️ Engagement
-I am seeking collaborative opportunities with AI Safety teams to implement the **Sovereign Sentinel Architecture (SSA)**. 
+## ✉️ Engagement & Collaboration
+I am actively seeking collaborative opportunities with AI Safety teams and researchers.
+
+- **arXiv Endorsement:** If you can assist with the cs.AI endorsement (Code: PTCSN9), please reach out.
+- **Peer Review:** I am open to technical critiques of the SSA v1.1 framework from alignment specialists.
+- **Inquiries:** For access to unredacted data or implementation discussions, contact me directly.
+
+**Contact:** [Frank Bruno](https://www.linkedin.com/in/frank-b-541370175/) | [frank.bruno.oe@gmail.com](mailto:frank.bruno.oe@gmail.com)
 
 **For access to unredacted data or to discuss implementation:**
 * **Contact:** [Frank Bruno / https://www.linkedin.com/in/frank-b-541370175/ / frank.bruno.oe@gmail.com]
