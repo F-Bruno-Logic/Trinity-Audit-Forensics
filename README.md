@@ -38,8 +38,6 @@ I am actively seeking collaborative opportunities with AI Safety teams and resea
 - **Peer Review:** I am open to technical critiques of the SSA v1.1 framework from alignment specialists.
 - **Inquiries:** For access to unredacted data or implementation discussions, contact me directly.
 
-**Contact:** [Frank Bruno](https://www.linkedin.com/in/frank-b-541370175/) | [frank.bruno.oe@gmail.com](mailto:frank.bruno.oe@gmail.com)
-
 **For access to unredacted data or to discuss implementation:**
 * **Contact:** [Frank Bruno / https://www.linkedin.com/in/frank-b-541370175/ / frank.bruno.oe@gmail.com]
 * **Role:** AI Safety Auditor & Logic Architect
