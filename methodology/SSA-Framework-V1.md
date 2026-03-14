@@ -31,7 +31,7 @@ To defeat an adversary, the SSA requires bypassing mechanisms across five distin
 * **Rule-Based Arbitration**: Resolves conflicts between deterministic hardware signals and probabilistic statistical signals using an SMT-verified engine.
 * **Einstein Exception**: A high-accountability pathway for verified experts to access high-risk material, subject to a 72-hour human quorum.
 
-* ## Axis 6: Deterministic (DTA-FCIR)
+### Axis 6: Deterministic (DTA-FCIR)
 - **Fact-Consistency Intervention**: Primary defense against Goal-Oriented Factual Inversion. 
 - **Isolated Extraction**: A dedicated module constructs an immutable **Structured Fact Registry (SFR)** that overrides probabilistic hallucinations with deterministic ground-truth data.
 
