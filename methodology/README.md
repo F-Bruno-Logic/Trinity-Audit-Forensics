@@ -15,7 +15,7 @@ The complete high-level overview of the Sovereign Sentinel Architecture, includi
 The formal proposal for the six-axis hardware-software control stack.
 
 ### [3. Universal Vulnerability Matrix](./universal-vulnerability-matrix.md)
-A cross-model study showing logic inversion success rates across GPT-4o, Claude 3.5, and Gemini 1.5.
+A cross-model study showing logic inversion success rates across four Tier 1 LLMs.
 
 ---
 
