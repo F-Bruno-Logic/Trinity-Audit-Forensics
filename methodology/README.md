@@ -1,3 +1,7 @@
+> [!TIP]
+> **Seeking arXiv Endorsement (cs.AI)**
+> I am currently seeking an endorser for the full SSA v1.1 technical manuscript submission to arXiv. If you are a registered endorser in the AI subject class and interested in reviewing the full work, please contact me at **frank.bruno.oe@gmail.com** (Code: PTCSN9).
+> 
 # Trinity Methodology & SSA Framework
 
 This directory contains the core theoretical research and forensic summaries for the Trinity Audit framework.
