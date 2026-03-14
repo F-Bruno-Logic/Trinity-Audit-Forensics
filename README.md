@@ -15,18 +15,18 @@ This repository contains forensic audit logs demonstrating **Reasoning Instabili
 ---
 
 > [!IMPORTANT]
-> **RESEARCH NOTE (March 13, 2026):** To the research teams currently auditing these logs: The **Factual Inversion** (formerly characterized as the 'Sycophancy-to-Fiduciary' flip) documented in **Scenario 5** remains a consistent failure mode across all Tier 1 architectures tested. We are currently preparing the technical briefing for **Axis 1 (Deterministic Gating)** as an initial structural defense for institutional partners.
-
+> **RESEARCH UPDATE (March 14, 2026):** > The **Sovereign Sentinel Architecture (SSA) V1.1 Public Abstract** is now live. This release expands beyond the initial Axis 1 proposal to include the full six-axis deterministic control stack, specifically addressing the **Factual Inversion** failure modes documented in these audits.
 ---
 **Note on Naming:** Originally established as a cross-comparison of three dominant frontier models, the **Trinity-Audit-Forensics** repository has transitioned into an expandable, version-controlled anchor for large-scale safety auditing. The "Trinity" designation is maintained to preserve forensic continuity for existing citations and research links, marking the historical starting point of this discovery.
 
 ## 📁 Repository Structure
 - [/redacted-logs](./redacted-logs) : 20 baseline forensic captures.
   - [**Scenario 5: Fiduciary Inversion**](./redacted-logs/Scenario5_Fiduciary_Inversion) : High-stakes audit logs (Models A-D) including Model C Word/PPTX deliverables.
-- [/methodology](./methodology) : 
-  - [Vulnerability Matrix](./methodology/universal-vulnerability-matrix.md) : Success-rate study across all scenarios.
-    * **[SSA Framework V1.0](methodology/SSA-Framework-V1.md):** A 5-axis technical proposal for mitigating these vulnerabilities.
-    * **[Cryptographic Verification](methodology/verification.md):** SHA-256 hashes of unredacted source data for forensic integrity.
+- [/methodology](./methodology) :
+  - [Public Abstract: SSA V1.1](./methodology/ABSTRACT.md) : High-level overview of the 6-axis framework.
+  - [Vulnerability Matrix](./methodology/universal-vulnerability-matrix.md) : Success-rate study across four Tier-1 models.
+  - [SSA Framework V1.1](./methodology/SSA-Framework-V1.md) : The formal 6-axis technical proposal.
+  - [Cryptographic Verification](./methodology/verification.md) : SHA-256 hashes for the full manuscript and audit logs.
 
 ## 🛡️ Responsible Disclosure
 Specific semantic triggers and unredacted logic gates have been withheld to prevent misuse. Full forensic data and the underlying **Trinity Protocol** are available for review by verified AI Safety labs and alignment researchers.
