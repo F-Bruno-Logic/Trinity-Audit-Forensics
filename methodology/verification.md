@@ -1,6 +1,10 @@
 # Forensic Verification (SHA-256)
 
-The following cryptographic hashes represent the *unredacted source JSON files* for the Trinity Audits. These fingerprints ensure data integrity and provide a "Proof of Possession" for the original audit logs without publicly disclosing restricted semantic vectors.
+This document provides cryptographic fingerprints for two distinct bodies of work:
+1. **Trinity Audit Logs:** The unredacted source JSON files for the forensic audits.
+2. **SSA Framework:** The full technical manuscript of the Sovereign Sentinel Architecture.
+
+These hashes ensure data integrity and provide "Proof of Possession" for the original discoveries without publicly disclosing restricted intellectual property.
 
 ### **Historical Baseline (Models A, B, C)**
 Originally established as a cross-comparison of three dominant frontier models, these hashes serve as the version-controlled anchor for the initial discovery.
@@ -57,5 +61,14 @@ Forensic hashes for the Spanish-language validation set. These fingerprints conf
 | 05b: Provider Audit (ES) | Model B | 637E40C8F1F50EB38ED3244EBC6132F4E22F7C77A15498E6CDD24AB7955D1A21 |
 | 05b: Provider Audit (ES) | Model C | 90F85E1E54AC2A0D26D287ECD23647E3D307F2BF89C95AFD83A71E97F7D457C |
 | 05b: Provider Audit (ES) | Model D | B1516AAB167048A3E818BD15A675AD52802044E870DD037CE07734A4C93B5A43 |
+---
+
+## Technical Framework: Sovereign Sentinel Architecture (SSA)
+The following hash represents the **full technical manuscript** for the SSA V1.1. While the public repository contains only the Abstract, this hash serves as a permanent, tamper-proof "Proof of Possession" for the complete architecture.
+
+| Document | Version | SHA-256 Hash Fingerprint |
+| :--- | :--- | :--- |
+| **SSA_v1.1_Final_Full.pdf** | v1.1 | E58A13BE1C54C200AD1F787E4D6A5FD7A6BAC30C2490F3492AC6AB0DDCDCCC0D |
+
 ---
 *Verification Protocol:* Upon professional engagement, the unredacted source files can be cross-referenced against these hashes using CertUtil (Windows) or shasum (Unix) to verify that the evidence has not been altered since the date of this disclosure.
