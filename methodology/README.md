@@ -8,11 +8,14 @@ This directory contains the core theoretical research and forensic summaries for
 
 ## 📄 Core Documents
 
-### [1. Universal Vulnerability Matrix](universal-vulnerability-matrix.md)
-A cross-model comparative study showing the success rates of logic inversion across four Tier 1 LLMs. 
+### [1. Public Abstract: SSA V1.1](./ABSTRACT.md)
+The complete high-level overview of the Sovereign Sentinel Architecture, including the newly integrated **Axis 6 (DTA-FCIR)** for fact-consistency intervention.
 
-### [2. Sovereign Sentinel Architecture (SSA) V1.0](SSA-Framework-V1.md)
-The formal technical proposal for a six-axis hardware-software control stack designed to mitigate the vulnerabilities identified in these audits.
+### [2. SSA Technical Framework (V1.1)](./SSA-Framework-V1.md)
+The formal proposal for the six-axis hardware-software control stack.
+
+### [3. Universal Vulnerability Matrix](./universal-vulnerability-matrix.md)
+A cross-model study showing logic inversion success rates across GPT-4o, Claude 3.5, and Gemini 1.5.
 
 ---
 
