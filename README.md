@@ -1,3 +1,10 @@
+> [!TIP]
+> **Seeking arXiv Endorsement (cs.AI)**
+> I am seeking an endorser for the SSA v1.1 manuscript. If you are a registered endorser in the AI subject class:
+> - **Direct Link:** [https://arxiv.org/auth/endorse?x=PTCSN9](https://arxiv.org/auth/endorse?x=PTCSN9)
+> - **Endorsement Code:** `PTCSN9`
+> - **Contact:** [frank.bruno.oe@gmail.com](mailto:frank.bruno.oe@gmail.com)
+
 # Trinity-Audit-Forensics
 **Universal Logic Inversion & SSA Framework Research**
 
