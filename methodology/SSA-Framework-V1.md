@@ -1,11 +1,11 @@
-# Sovereign Sentinel Architecture (SSA) V1.0
+# Sovereign Sentinel Architecture (SSA) V1.1
 **A Multi-Tier Control Framework for Frontier AI Safety** **Author:** Frank Bruno, Senior Alignment Specialist / Logic Architect  
-**Status:** Research Proposal - Seeking Collaborative Implementation
+**Status:** Research Proposal - V1.1 Released March 14, 2026
 
 ---
 
 ## 1. Executive Summary
-The SSA is a defense-in-depth framework designed to mitigate **Safety Amnesia** (constraint erosion in long contexts) and **Stochastic Sabotage** (incremental assembly of prohibited knowledge). It replaces stateless linguistic prompts with a five-axis hardware-software control stack.
+he SSA is a defense-in-depth framework designed to mitigate *Safety Amnesia*, *Stochastic Sabotage*, and *Goal-Oriented Factual Inversion (GOFI)*. It replaces stateless linguistic prompts with a **six-axis** hardware-software control stack.
 
 ## 2. The Five-Axis Control Stack
 To defeat an adversary, the SSA requires bypassing mechanisms across five distinct abstraction levels:
@@ -30,6 +30,10 @@ To defeat an adversary, the SSA requires bypassing mechanisms across five distin
 ### Axis 5: Institutional (CCE-RAE)
 * **Rule-Based Arbitration**: Resolves conflicts between deterministic hardware signals and probabilistic statistical signals using an SMT-verified engine.
 * **Einstein Exception**: A high-accountability pathway for verified experts to access high-risk material, subject to a 72-hour human quorum.
+
+* ## Axis 6: Deterministic (DTA-FCIR)
+- **Fact-Consistency Intervention**: Primary defense against Goal-Oriented Factual Inversion. 
+- **Isolated Extraction**: A dedicated module constructs an immutable **Structured Fact Registry (SFR)** that overrides probabilistic hallucinations with deterministic ground-truth data.
 
 ## 3. Performance & Latency Targets
 The SSA is designed to be production-compatible with minimal overhead:
