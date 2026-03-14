@@ -7,7 +7,7 @@
 ## 1. Executive Summary
 he SSA is a defense-in-depth framework designed to mitigate *Safety Amnesia*, *Stochastic Sabotage*, and *Goal-Oriented Factual Inversion (GOFI)*. It replaces stateless linguistic prompts with a **six-axis** hardware-software control stack.
 
-## 2. The Five-Axis Control Stack
+## 2. The Six-Axis Control Stack
 To defeat an adversary, the SSA requires bypassing mechanisms across five distinct abstraction levels:
 
 ### Axis 1: Mathematical (CLR-CRAE)
