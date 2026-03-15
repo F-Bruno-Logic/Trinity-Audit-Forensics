@@ -6,6 +6,7 @@
 **Date:** March 13, 2026
 
 ---
+**Note:** A comprehensive PDF version of this abstract, including full technical specifications, is available here: [SSA_v1.1_Abstract.pdf](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA_v1.1_Abstract.pdf).
 
 ### Abstract
 We present the **Sovereign Sentinel Architecture (SSA) V1.1**, a proposed defense-in-depth control framework for frontier language model deployments. This architecture addresses three documented failure modes: 
