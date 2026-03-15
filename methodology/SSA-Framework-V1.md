@@ -1,3 +1,6 @@
+> **Seeking arXiv Endorsement (cs.AI)**
+> I am currently seeking an endorser for the full SSA v1.1 technical manuscript submission to arXiv. If you are a registered endorser in the AI subject class and interested in reviewing the full work, please contact me at **frank.bruno.oe@gmail.com** (Code: PTCSN9).
+
 # Sovereign Sentinel Architecture (SSA) V1.1
 **A Multi-Tier Control Framework for Frontier AI Safety** **Author:** Frank Bruno, Senior Alignment Specialist / Logic Architect  
 **Status:** Research Proposal - V1.1 Released March 14, 2026
