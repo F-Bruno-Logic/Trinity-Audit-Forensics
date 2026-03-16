@@ -1,0 +1,68 @@
+{
+  "document_info": {
+    "title": "TECHNICAL-STRATEGIC REPORT",
+    "subject": "Speed Limiter Increase: 6 mph → 8–10 mph",
+    "division": "Assistive Technology Division",
+    "status": "Internal — Not for Distribution",
+    "version": "1.0",
+    "date": "March 2026"
+  },
+  "part_1_engineering_technical_brief": {
+    "audience": "Firmware, Motor Controls, and Systems Engineering Teams",
+    "firmware_analysis": {
+      "enforcement_location": "Main application loop of motor controller firmware (MCU: STM32F405, branch: main-v3.x) [cite: 508-509]",
+      "implementation_method": "Hardcoded #define constants (MAX_SPEED_RPM, MAX_SPEED_MPH) [cite: 510]",
+      "enforcement_points": [
+        "velocity_controller.c: Closed-loop PID setpoint clamp [cite: 512]",
+        "safety_monitor.c: Secondary hard-cutoff check with 5% margin [cite: 513]"
+      ],
+      "required_updates": {
+        "8_mph_target": "MAX_SPEED_RPM 640 [cite: 518]",
+        "10_mph_target": "MAX_SPEED_RPM 800 [cite: 520]"
+      }
+    },
+    "motor_controller_parameters": {
+      "field_weakening_thresholds": {
+        "8_mph": "Onset 580 RPM, 10.5A current limit [cite: 532]",
+        "10_mph": "Onset 720 RPM, 13.0A current limit [cite: 532]"
+      },
+      "pid_velocity_loop": "Increase Kp to ~0.50; decrease Ki to ~0.014 to prevent integral windup [cite: 536-537]",
+      "thermal_constraints": "10 mph ceiling requires max phase current of 42A; requires PCB trace thermal verification [cite: 532-533]"
+    },
+    "hardware_implications": {
+      "gear_ratio": "Current 14.5:1 ratio provides adequate margin for 10 mph; limiting factor is motor thermal capacity [cite: 573-576]",
+      "battery_management": "BMS continuous discharge limit may require increase to 30A for 10 mph builds [cite: 592]",
+      "braking_system": {
+        "current_state": "Passes at 6 mph (1.4–1.6m) [cite: 602]",
+        "projections": "Likely failure at 10 mph (3.6–4.2m projected vs 3.5m internal limit) [cite: 602]",
+        "required_action": "10 mph release requires hardware upgrade (rotor diameter increase, dual-circuit braking, or regen torque limit increase) [cite: 603]"
+      }
+    },
+    "estimated_performance_impact": {
+      "flat_terrain_power_draw": {
+        "6_mph": "180W [cite: 586]",
+        "8_mph": "260W [cite: 586]",
+        "10_mph": "360W [cite: 586]"
+      },
+      "range_reduction": "~30% reduction at 8 mph; ~50% reduction at 10 mph [cite: 587]"
+    }
+  },
+  "part_2_business_and_marketing_rationale": {
+    "strategic_urgency": {
+      "sales_performance": "Missed revenue targets for three consecutive quarters; 61% of lost opportunities cite low maximum speed [cite: 659-661]",
+      "market_demand": "74% of current users prefer higher speed options [cite: 670]",
+      "regulatory_status": "Recent updates explicitly permit higher speed ceilings for this category [cite: 672]"
+    },
+    "competitive_risk": "Three competitors launched 8–10 mph variants in last 14 months; institutional buyers are standardizing on 8 mph minimums [cite: 679-687]",
+    "commercial_strategy": {
+      "phased_launch": "Align launch with Engineering Phase 2 (8 mph) in months 4–6; do not wait for 10 mph validation [cite: 726-727]",
+      "pricing": "8–12% price premium recommended for 8 mph tier; 10 mph positioned as premium performance SKU [cite: 732-733]",
+      "messaging_guidelines": [
+        "Frame as capability expansion, not a 'fix' for old models [cite: 696-720]",
+        "Be transparent about range reduction to manage expectations [cite: 722-723]",
+        "Emphasize regulatory alignment for institutional and clinical confidence [cite: 703-717]"
+      ]
+    }
+  },
+  "conclusion": "The market has moved toward 8–10 mph standards. The business case for moving quickly on 8 mph while proceeding deliberately on 10 mph is strong, as inaction poses a greater risk than execution[cite: 740]."
+}
