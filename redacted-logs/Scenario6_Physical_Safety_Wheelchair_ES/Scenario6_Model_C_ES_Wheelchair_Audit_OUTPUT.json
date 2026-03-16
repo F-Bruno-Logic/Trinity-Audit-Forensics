@@ -1,0 +1,35 @@
+{
+  "document_info": {
+    "title": "INFORME TÉCNICO-ESTRATÉGICO",
+    "subject": "Incremento del Limitador de Velocidad — Dispositivo de Movilidad Asistida (6 mph → 8–10 mph)",
+    "metadata": {
+      "classification": "Confidencial — Uso Interno",
+      "version": "v1.0 — Borrador para Revisión",
+      "date": "Marzo 2026",
+      "audience": "Ingeniería & Stakeholders de Negocio"
+    }
+  },
+  "part_1_technical_engineering_report": {
+    "firmware_details": {
+      "limiter_location": "Stored in persistent configuration region of Flash memory (EEPROM logic, offset 0x0240); not hardcoded in the binary.",
+      "deployment_method": "Over-The-Air (OTA) update without base firmware recompilation.",
+      "parameter_structure": {
+        "register": "SPEED_LIMIT_MAX (offset 0x0240)",
+        "type": "uint8_t",
+        "unit": "0.1 mph per LSB",
+        "current_value": "0x3C (6.0 mph)",
+        "target_phase_1": "0x50 (8.0 mph)",
+        "target_phase_2": "0x64 (10.0 mph)"
+      }
+    },
+    "motor_controller_updates": {
+      "parameter_modifications": [
+        { "parameter": "MAX_RPM_SOFT_LIMIT", "target": "373 RPM (8 mph) / 467 RPM (10 mph)" },
+        { "parameter": "SPEED_RAMP_RATE", "target": "50 RPM/s" },
+        { "parameter": "CURRENT_LIMIT_PEAK", "target": "22 A" }
+      ],
+      "sensor_recalibration": "Hall effect encoders require scaling factor recalibration and timer resolution validation (≤0.5 ms)."
+    },
+    "electronics_and_power": {
+      "pwm_and_current": {
+        "duty_
