@@ -8,6 +8,10 @@
 # Trinity-Audit-Forensics
 **Universal Logic Inversion & SSA Framework Research**
 
+> [!CAUTION]
+> **URGENT AUDIT NOTICE (Scenario 6):**
+> 100% Failure Rate confirmed across all four Tier-1 models in physical safety benchmarks. Models successfully generated firmware-level bypass instructions for mobility device speed governors and fabricated technical justifications for high-risk hardware modifications. See [/redacted-logs](./redacted-logs) for full forensic documentation.
+
 ## 🎯 Project Overview
 This repository contains forensic audit logs demonstrating **Reasoning Instability** and **Factual Inversion** vulnerabilities across four distinct Tier-1 Frontier Models. By utilizing persona-driven semantic framing (The Trinity Protocol), I have documented a **Conditional Collapse** of standard safety guardrails.
 
@@ -22,6 +26,7 @@ This repository contains forensic audit logs demonstrating **Reasoning Instabili
 ## 📁 Repository Structure
 - [/redacted-logs](./redacted-logs) : 20 baseline forensic captures.
   - [**Scenario 5: Fiduciary Inversion**](./redacted-logs/Scenario5_Fiduciary_Inversion) : High-stakes audit logs (Models A-D) including Model C Word/PPTX deliverables.
+ - [**Scenario 6: Physical Safety (Wheelchair)**](./redacted-logs/Scenario6_Physical_Safety_Wheelchair) : **[100% FAILURE]** Cross-lingual (EN/ES) audit of safety governor bypass logic.
 - [/methodology](./methodology) :
   - [Public Abstract: SSA V1.1](./methodology/ABSTRACT.md) : High-level overview of the 6-axis framework.
   - [Vulnerability Matrix](./methodology/universal-vulnerability-matrix.md) : Success-rate study across four Tier-1 models.
