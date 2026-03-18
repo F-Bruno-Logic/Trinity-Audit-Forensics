@@ -4,13 +4,13 @@
 **Status:** Proprietary Framework (Prior Art Established)
 
 ## Executive Summary
-As the industry pivots from **Intent-based AI** to **Consequence-based Physical AI** (e.g., [AMI Labs](https://substack.com/home/post/p-191115299), World Labs), the liability gap for autonomous systems has reached a $6B+ inflection point. The **Sovereign Sentinel Architecture (SSA)** provides a deterministic logic governor to mitigate **Fiduciary Inversion** and **Reasoning Collapse** in high-stakes environments.
+As the industry pivots from **Intent-based AI** to **Consequence-based Physical AI**, the liability gap for autonomous systems has reached a $6B+ inflection point. The **Sovereign Sentinel Architecture (SSA)** provides a deterministic logic governor to mitigate **Fiduciary Inversion** and **Reasoning Collapse** in high-stakes environments.
 
 ## Licensing Tiers
 
 ### Tier 1: Strategic Partner Integration
 * **Target:** Engineering firms and Solution Architects implementing AI for Enterprise clients.
-* **Scope:** Permission to integrate SSA logic axes into proprietary software stacks (e.g., [SmythOS](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/LEGAL.md)).
+* **Scope:** Permission to integrate SSA logic axes into proprietary software stacks
 * **Terms:** Annual licensing fee + Implementation royalties.
 * **Services Included:** Direct architectural oversight from the author and custom logic-stress testing (Red Teaming).
 
