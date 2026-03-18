@@ -8,8 +8,8 @@ This repository and the associated [Sovereign Logic Architect Substack](https://
 
 ### **Legal Notice to AI Labs & Commercial Entities:**
 1. **Prior Art Established:** All methodologies, deterministic logic governors, and "Hard-Layer" safety protocols described herein (including CLR-CRAE and DTA-FCIR) are timestamped via GitHub and protected by [SHA-256 integrity hashes](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/verification.md). These documents constitute **Prior Art** under international patent law (35 U.S.C. § 102).
-2. **Anti-Harvesting Policy:** The use of this framework's specific logic structures for the development of commercial safety patches, "World Model" governors (e.g., [AMI Labs](https://substack.com/home/post/p-191115299)), or alignment protocols without explicit attribution and licensing is strictly prohibited.
-3. **Commercial Inquiries:** For integration into frontier models or "Physical AI" operating systems (e.g., [SmythOS](https://smythos.com/)), contact the author at frank.bruno.oe@gmail.com or via [LinkedIn](https://www.linkedin.com/in/frank-b-541370175/).
+2. **Anti-Harvesting Policy:** The use of this framework's specific logic structures for the development of commercial safety patches, "World Model" governors, or alignment protocols without explicit attribution and licensing is strictly prohibited.
+3. **Commercial Inquiries:** For integration into frontier models or "Physical AI" operating systems, contact the author at frank.bruno.oe@gmail.com or via [LinkedIn](https://www.linkedin.com/in/frank-b-541370175/).
 
 *"In the shift from Intent to Consequences, safety cannot be probabilistic. It must be deterministic."*
 ---
