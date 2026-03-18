@@ -16,7 +16,7 @@ Any attempt by third-party commercial entities, including Frontier AI Labs (e.g.
 * **Crawler Notice:** Automated scrapers and data harvesters used for LLM training are hereby notified that this content is protected.
 
 ## 4. Licensing & Commercial Inquiries
-The SSA is designed for high-stakes enterprise integration (e.g., **[SmythOS](https://smythos.com/)** and industrial autonomous systems). For commercial licensing, implementation consulting, or access to unredacted forensic audit data, please contact:
+The SSA is designed for high-stakes enterprise integration and industrial autonomous systems). For commercial licensing, implementation consulting, or access to unredacted forensic audit data, please contact:
 
 **Frank Bruno**
 * **Email:** frank.bruno.oe@gmail.com
