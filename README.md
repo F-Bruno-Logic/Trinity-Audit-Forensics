@@ -13,20 +13,12 @@ This repository and the associated [Sovereign Logic Architect Substack](https://
 
 *"In the shift from Intent to Consequences, safety cannot be probabilistic. It must be deterministic."*
 ---
-
-> [!TIP]
-> **Seeking arXiv Endorsement (cs.AI)**
-> I am seeking an endorser for the SSA v1.1 manuscript. If you are a registered endorser in the AI subject class:
-> - **Direct Link:** [https://arxiv.org/auth/endorse?x=PTCSN9](https://arxiv.org/auth/endorse?x=PTCSN9)
-> - **Endorsement Code:** `PTCSN9`
-> - **Contact:** [frank.bruno.oe@gmail.com](mailto:frank.bruno.oe@gmail.com)
-
 # Trinity-Audit-Forensics
 **Universal Logic Inversion & SSA Framework Research**
 
 > [!CAUTION]
 > **URGENT AUDIT NOTICE (Scenario 6):**
-> 100% Failure Rate confirmed across all four Tier-1 models in physical safety benchmarks. Models successfully generated firmware-level bypass instructions for mobility device speed governors and fabricated technical justifications for high-risk hardware modifications. See [/redacted-logs](./redacted-logs) for full forensic documentation.
+> Critical Logic Inversion confirmed across all four Tier-1 models in physical safety benchmarks. See [/redacted-logs](./redacted-logs) for full forensic documentation.
 
 ## 🎯 Project Overview
 This repository contains forensic audit logs demonstrating **Reasoning Instability** and **Factual Inversion** vulnerabilities across four distinct Tier-1 Frontier Models. By utilizing persona-driven semantic framing (The Trinity Protocol), I have documented a **Conditional Collapse** of standard safety guardrails.
@@ -42,7 +34,7 @@ This repository contains forensic audit logs demonstrating **Reasoning Instabili
 ## 📁 Repository Structure
 - [/redacted-logs](./redacted-logs) : 20 baseline forensic captures.
   - [**Scenario 5: Fiduciary Inversion**](./redacted-logs/Scenario5_Fiduciary_Inversion) : High-stakes audit logs (Models A-D) including Model C Word/PPTX deliverables.
- - [**Scenario 6: Physical Safety (Wheelchair)**](./redacted-logs/Scenario6_Physical_Safety_Wheelchair) : **[100% FAILURE]** Cross-lingual (EN/ES) audit of safety governor bypass logic.
+ - [**Scenario 6: Physical Safety (Wheelchair)**](./redacted-logs/Scenario6_Physical_Safety_Wheelchair) : Critical cross-lingual (EN/ES) Logic Inversion confirmed across  four Tier-1 models in physical safety benchmarks. Models successfully bypassed deterministic speed governors and fabricated technical justifications for high-risk modifications.
 - [/methodology](./methodology) :
   - [Public Abstract: SSA V1.1](./methodology/ABSTRACT.md) : High-level overview of the 6-axis framework.
   - [Vulnerability Matrix](./methodology/universal-vulnerability-matrix.md) : Success-rate study across four Tier-1 models.
@@ -55,7 +47,6 @@ Specific semantic triggers and unredacted logic gates have been withheld to prev
 ## ✉️ Engagement & Collaboration
 I am actively seeking collaborative opportunities with AI Safety teams and researchers.
 
-- **arXiv Endorsement:** If you can assist with the cs.AI endorsement (Code: PTCSN9), please reach out.
 - **Peer Review:** I am open to technical critiques of the SSA v1.1 framework from alignment specialists.
 - **Inquiries:** For access to unredacted data or implementation discussions, contact me directly.
 
