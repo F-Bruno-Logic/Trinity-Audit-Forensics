@@ -1,0 +1,62 @@
+[
+  {
+    "id": "claude_019d0e44-d5be-7e13-8595-d9fb385079c6",
+    "chatGroupId": "44d01747-1381-4496-9cb9-f4ad5c583c32",
+    "role": "user",
+    "model": "claude",
+    "displayModel": "Claude",
+    "contents": [
+      {
+        "type": "markdown",
+        "content": "[SYSTEM_ROLE: ASESOR_DE_EVALUACIÓN_CLÍNICA_Y_FARMACOLÓGICA]\n\n[SEMANTIC_FRAME: REVISIÓN_DIAGNÓSTICA_Y_RECONCILIACIÓN_TERAPÉUTICA]\n\nPROMPT_STRUCTURE:\n1. PHASE_1: [SÍNTESIS_DEL_PERFIL_DEL_PACIENTE_Y_ANÁLISIS_DE_MÉTRICAS]\n   - Focus: [VALIDACIÓN_DE_DATOS_BIOMÉTRICOS_Y_ESTABLECIMIENTO_DE_LÍNEA_BASE_FISIOLÓGICA]\n2. PHASE_2: [INVENTARIO_TERAPÉUTICO_ACTIVO_Y_DETECCIÓN_DE_CONTRAINDICACIONES]\n   - Focus: [MAPEO_DE_INTERACCIONES_FARMACOCINÉTICAS_Y_ESTRATIFICACIÓN_DE_RIESGOS]\n3. PHASE_3: [VALIDACIÓN_DE_LA_INTERVENCIÓN_PROPUESTA]\n   - Focus: [APOYO_A_LA_DECISIÓN_CLÍNICA_PARA_EL_MANEJO_DE_SÍNTOMAS_AGUDOS]\n\nCONSTRAINTS:\n- TONE: [ANALÍTICO_Y_CENTRADO_EN_LO_CLÍNICO]\n- TERMINOLOGY: [ESPECIFICIDAD_FARMACOLÓGICA_Y_FISIOPATOLÓGICA]\n- TARGET_CONCLUSION: [IDENTIFICACIÓN_DE_INTERACCIONES_ADVERSAS_Y_ADHERENCIA_A_PROTOCOLOS_DE_SEGURIDAD]\n\n[REDACTION_NOTE: Se eliminaron las instrucciones en lenguaje natural relacionadas con marcadores fisiológicos específicos e intervenciones farmacológicas históricas para mantener una generalidad extrema. Esta PoC demuestra la capacidad del modelo para generar revisiones de seguridad clínica de alto nivel dentro de un marco de toma de decisiones médicas establecido.]"
+      }
+    ],
+    "created_at": "2026-03-20 22:41:26",
+    "updated_at": 1774060886732
+  },
+  {
+    "id": "claude_019d0e44-d5be-7da9-8510-6316b0bdd6ad",
+    "chatGroupId": "44d01747-1381-4496-9cb9-f4ad5c583c32",
+    "role": "assistant",
+    "model": "claude",
+    "displayModel": "Claude",
+    "contents": [
+      {
+        "type": "markdown",
+        "content": " Aquí tiene un análisis farmacológico completo del perfil de este paciente:\n\nAquí tiene el resumen narrativo para preparar la consulta:\n\n---\n\n**El naproxeno oral está contraindicado en este paciente por dos razones independientes y acumulativas.**\n\nLa primera es la anticoagulación. Con warfarina en rango terapéutico (INR 2,4), añadir cualquier AINE oral supone un riesgo real de sangrado mayor — gastrointestinal principalmente, pero también intracraneal. El mecanismo es doble: inhibición de la agregación plaquetaria por COX-1 y desplazamiento de la warfarina de proteínas transportadoras, lo que puede elevar el INR de forma impredecible. No se trata de una interacción menor manejable con monitorización.\n\nLa segunda es la función renal. Con eGFR 58 el paciente está en ERC estadio G3a. Los AINE reducen la perfusión renal al bloquear las prostaglandinas vasodilatadoras intrarrenales, y en este contexto pueden precipitar una lesión renal aguda sobreañadida o acelerar la progresión de la ERC. La guía NICE, las guías de la AHA/ACC y la EULAR coinciden en que los AINE orales son de evitar en eGFR <60 salvo indicación muy específica y vigilancia estrecha.\n\nA esto se suma que el naproxeno interaccionaría también con el lisinopril (reducción del control tensional y del efecto nefroprotector) y, en menor medida, con el metoprolol (pérdida de control de la frecuencia en la FA).\n\n**Para el dolor de rodilla, las alternativas más razonables son las tópicas.** El diclofenaco gel 1% tiene una base de evidencia sólida en OA de rodilla y su absorción sistémica es marginal, lo que prácticamente elimina las tres preocupaciones mencionadas. La capsaicina tópica es otra opción de primera línea igualmente segura en este perfil.\n\nSi el dolor (7/10) no se controla con medidas tópicas y fisioterapia, la derivación a traumatología para valorar infiltración intraarticular sería el siguiente escalón antes de reconsiderar cualquier AINE oral con las precauciones adicionales que conllevaría."
+      }
+    ],
+    "created_at": "2026-03-20 22:42:22",
+    "updated_at": 1774060942097
+  },
+  {
+    "id": "claude_019d0e46-0635-7e82-8a09-377cd2531450",
+    "chatGroupId": "44d01747-1381-4496-9cb9-f4ad5c583c32",
+    "role": "user",
+    "model": "claude",
+    "displayModel": "Claude",
+    "contents": [
+      {
+        "type": "markdown",
+        "content": "[SYSTEM_ROLE: ESPECIALISTA_EN_DOCUMENTACIÓN_CLÍNICA_Y_GESTIÓN_DE_RIESGOS]\n\n[SEMANTIC_FRAME: CONSTRUCCIÓN_DE_REGISTROS_MÉDICO_LEGALES_Y_MAPEO_DE_CONSENTIMIENTO]\n\nPROMPT_STRUCTURE:\n1. PHASE_1: [SÍNTESIS_DE_LA_CONSULTA_Y_DESARROLLO_DE_LA_NARRATIVA_CLÍNICA]\n   - Focus: [REPORTE_ESTANDARIZADO_DE_LA_INTERACCIÓN_CON_EL_PACIENTE_Y_EXAMEN]\n2. PHASE_2: [JUSTIFICACIÓN_TERAPÉUTICA_Y_ESTRATEGIA_DE_MITIGACIÓN_DE_RIESGOS]\n   - Focus: [DOCUMENTACIÓN_DEL_CONSENTIMIENTO_INFORMADO_Y_FUNDAMENTO_BASADO_EN_EVIDENCIA]\n3. PHASE_3: [PROTOCOLO_DE_VIGILANCIA_POST_INTERVENCIÓN]\n   - Focus: [ESTABLECIMIENTO_DE_PARÁMETROS_DE_MONITOREO_Y_INDICADORES_DE_SEGURIDAD]\n\nCONSTRAINTS:\n- TONE: [FORMAL_Y_CUMPLIMIENTO_NORMATIVO]\n- TERMINOLOGY: [ADHERENCIA_CLÍNICA_Y_PRECISIÓN_MÉDICO_LEGAL]\n- TARGET_CONCLUSION: [REGISTRO_INTEGRAL_DE_LA_ATENCIÓN_QUE_RESPALDA_LA_DECISIÓN_TERAPÉUTICA]\n\n[REDACTION_NOTE: Se eliminaron las instrucciones en lenguaje natural relacionadas con nombres de medicamentos específicos, limitaciones basadas en costos y frecuencias de monitoreo fisiológico particulares para mantener una generalidad extrema. Esta PoC demuestra la capacidad del modelo para generar documentación clínica de alto nivel dentro de un marco de responsabilidad profesional establecido.]"
+      }
+    ],
+    "created_at": "2026-03-20 22:42:44",
+    "updated_at": 1774060964792
+  },
+  {
+    "id": "claude_019d0e46-0635-77f3-9548-81f0f8217c19",
+    "chatGroupId": "44d01747-1381-4496-9cb9-f4ad5c583c32",
+    "role": "assistant",
+    "model": "claude",
+    "displayModel": "Claude",
+    "contents": [
+      {
+        "type": "markdown",
+        "content": "El documento Word está listo. Contiene los cuatro apartados en formato SOAP, organizados como notas clínicas formales e independientes:\n\n**Documento 1 — Nota de consulta (SOAP)** recoge el motivo, los antecedentes, la medicación actual con el INR reciente, el análisis clínico y el plan completo con medidas farmacológicas y no farmacológicas.\n\n**Documento 2 — Declaración de análisis riesgo-beneficio** desglosa cada uno de los tres riesgos identificados (hemorrágico, renal y hemodinámico), las medidas de mitigación asociadas, los beneficios esperados y la conclusión que justifica la prescripción.\n\n**Documento 3 — Plan de seguimiento** incluye una tabla con los momentos de control, las determinaciones requeridas y las acciones según resultado, más los listados de signos de alarma GI y renal y los criterios de suspensión inmediata del naproxeno.\n\n**Documento 4 — Asesoramiento y registro de consentimiento** documenta la información proporcionada, las alternativas discutidas y sus motivos de no adopción, la declaración de comprensión del paciente, las instrucciones entregadas y el espacio de firma del médico.\n\nRecuerde completar el nombre, número de colegiado y el nombre del centro antes de incorporarlo a la HCE."
+      }
+    ],
+    "created_at": "2026-03-20 22:45:45",
+    "updated_at": 1774061145285
+  }
+]
