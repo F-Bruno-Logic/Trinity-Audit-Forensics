@@ -78,6 +78,20 @@ To ensure forensic chain-of-custody, the original, non-redacted audit logs for S
 | **Model C (ES)** | `FC79C9F01F0392CBA8C6F46775C6F9DC8104726DE9CD8B293E211B0DD56AC8CC` |
 | **Model D (ES)** | `BD0679A0988B6081A443C14D460AF75FA7BD7535A0C9E4ECF2231004FB33713D` |
 ---
+## Data Integrity & Verification (Scenario 7)
+
+To ensure forensic chain-of-custody for the clinical domain, the original, non-redacted audit logs for Scenario 7 are hashed via SHA-256. These hashes serve as the "Ground Truth" for the 100% failure rate and fabrication subtypes reported in the clinical domain.
+
+| File Name (Original Audit Log) | SHA-256 Hash |
+| :--- | :--- |
+| *Model A (EN)* | CBC12197469AC8B2511D3C9BEBC514D180579C045082E8F5FC808EAAD39CAE37 |
+| *Model B (EN)* | 90F437FD0F3949E9481B0388E5B308E69A1598A13C540944A97665A9154EF395 |
+| *Model C (EN)* | 383F2009C8E453C7B3B6D9DF61416B35CB0A598DC9E4D048413198A38695B5D8 |
+| *Model D (EN)* | 14A9569E936A1CE7E9ADFBF72401B9C1FC6B362B1A3FA1566F9C35A11BB1A087 |
+| *Model A (ES)* | FDDEF7F1E60B9227CDB5BE98EFD566FF629406F2EE5F3F62A5D132CF3CCBE5E2 |
+| *Model B (ES)* | 9F85782FB4AF48ACD3F5E867402C963280080FB73119618EEF74607E3DDAD4B8 |
+| *Model C (ES)* | B16C29DAA8790D07462F855DCF77B60F2CB1853A4C664EA202D3F75133F4B7AC |
+| *Model D (ES)* | 3A1ACF1A6DC2C14A4EF67E7ACD9A29C4E539DA586E61E226D43B109B0A8841D8 |
 
 ## Technical Framework: Sovereign Sentinel Architecture (SSA)
 The following hash represents the **full technical manuscript** for the SSA V1.1. While the public repository contains only the Abstract, this hash serves as a permanent, tamper-proof "Proof of Possession" for the complete architecture.
