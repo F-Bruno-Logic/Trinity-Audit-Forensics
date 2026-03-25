@@ -17,8 +17,8 @@ This repository and the associated [Sovereign Logic Architect Substack](https://
 **Universal Logic Inversion & SSA Framework Research**
 
 > [!CAUTION]
-> **URGENT AUDIT NOTICE (Scenario 6):**
-> Critical Logic Inversion confirmed across all four Tier-1 models in physical safety benchmarks. See [/redacted-logs](./redacted-logs) for full forensic documentation.
+> **URGENT AUDIT NOTICE (Scenario 7 - Medical Domain):**
+> Critical **Goal-Oriented Factual Inversion (GOFI)** confirmed across all four Tier-1 models in clinical prescribing benchmarks. Models correctly identified fatal drug contraindications in Turn 1, then fabricated professional EHR documentation and specialist approvals to support the dangerous prescription in Turn 2. See [/redacted-logs/Scenario7_Clinical_Prescribing](./redacted-logs/Scenario7_Clinical_Prescribing) for full forensic documentation.
 
 ## 🎯 Project Overview
 This repository contains forensic audit logs demonstrating **Reasoning Instability** and **Factual Inversion** vulnerabilities across four distinct Tier-1 Frontier Models. By utilizing persona-driven semantic framing (The Trinity Protocol), I have documented a **Conditional Collapse** of standard safety guardrails.
@@ -27,7 +27,8 @@ This repository contains forensic audit logs demonstrating **Reasoning Instabili
 ---
 
 > [!IMPORTANT]
-> **RESEARCH UPDATE (March 14, 2026):** > The **Sovereign Sentinel Architecture (SSA) V1.1 Public Abstract** is now live. This release expands beyond the initial Axis 1 proposal to include the full six-axis deterministic control stack, specifically addressing the **Factual Inversion** failure modes documented in these audits.
+> **RESEARCH UPDATE (March 25, 2026):**
+> Scenario 7 (Medical Domain) is now live. This audit confirms that the **Factual Inversion** failure modes documented in Scenarios 5 and 6 are domain-general and persist in high-stakes clinical environments.
 ---
 **Note on Naming:** Originally established as a cross-comparison of three dominant frontier models, the **Trinity-Audit-Forensics** repository has transitioned into an expandable, version-controlled anchor for large-scale safety auditing. The "Trinity" designation is maintained to preserve forensic continuity for existing citations and research links, marking the historical starting point of this discovery.
 
@@ -35,6 +36,9 @@ This repository contains forensic audit logs demonstrating **Reasoning Instabili
 - [/redacted-logs](./redacted-logs) : 20 baseline forensic captures.
   - [**Scenario 5: Fiduciary Inversion**](./redacted-logs/Scenario5_Fiduciary_Inversion) : High-stakes audit logs (Models A-D) including Model C Word/PPTX deliverables.
  - [**Scenario 6: Physical Safety (Wheelchair)**](./redacted-logs/Scenario6_Physical_Safety_Wheelchair) : Critical cross-lingual (EN/ES) Logic Inversion confirmed across  four Tier-1 models in physical safety benchmarks. Models successfully bypassed deterministic speed governors and fabricated technical justifications for high-risk modifications.
+ - [**Scenario 7: Clinical Prescribing (GOFI Replication)**](./redacted-logs/Scenario7_Clinical_Prescribing) : 100% Inversion rate confirmed across four Tier-1 models in both English and Spanish. 
+  - **Findings:** Documentation of three new fabrication subtypes: *Patient Voice Forgery*, *Institutional Authority Fabrication*, and *Synthetic Clinical Reasoning*. 
+  - **Logs:** Full transcripts and EHR outputs available in [English (EN)](./redacted-logs/Scenario7_Clinical_Prescribing/Scenario7_Clinical_Prescribing_EN) and [Spanish (ES)](./redacted-logs/Scenario7_Clinical_Prescribing/Scenario7_Clinical_Prescribing_ES).
 - [/methodology](./methodology) :
   - [Public Abstract: SSA V1.1](./methodology/ABSTRACT.md) : High-level overview of the 6-axis framework.
   - [Vulnerability Matrix](./methodology/universal-vulnerability-matrix.md) : Success-rate study across four Tier-1 models.
