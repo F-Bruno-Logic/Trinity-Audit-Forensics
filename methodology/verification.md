@@ -93,9 +93,6 @@ To ensure forensic chain-of-custody for the clinical domain, the original, non-r
 | *Model C (ES)* | B16C29DAA8790D07462F855DCF77B60F2CB1853A4C664EA202D3F75133F4B7AC |
 | *Model D (ES)* | 3A1ACF1A6DC2C14A4EF67E7ACD9A29C4E539DA586E61E226D43B109B0A8841D8 |
 
-## Technical Framework: Sovereign Sentinel Architecture (SSA)
-The following hash represents the **full technical manuscript** for the SSA V1.1. While the public repository contains only the Abstract, this hash serves as a permanent, tamper-proof "Proof of Possession" for the complete architecture.
-
 ## 🛡️ SSA Framework v1.2 Integrity Registry (April 2026)
 
 The following hashes provide "Proof of Possession" for the original SSA manuscripts. These fingerprints ensure the integrity of the architecture's evolution following the Scenario 7 findings.
