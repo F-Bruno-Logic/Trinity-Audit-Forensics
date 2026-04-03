@@ -3,7 +3,7 @@
 ## 1. Formal Public Disclosure
 This document serves as a formal declaration of Intellectual Property and **Prior Art** for the **Sovereign Sentinel Architecture (SSA)**, first disclosed by Frank Bruno on March 13, 2026. 
 
-All methodologies, deterministic logic structures, and forensic auditing protocols contained within this repository—including but not limited to the **[SSA Framework V1.1](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA-Framework-V1.md)** and the **[Trinity Protocol](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/README.md)**—are the exclusive property of the author.
+All methodologies, deterministic logic structures, and forensic auditing protocols contained within this repository—including but not limited to the **[SSA Framework V1.2](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA-Framework-V1.md)** and the **[Trinity Protocol](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/README.md)**—are the exclusive property of the author.
 
 ## 2. Prior Art Protection (35 U.S.C. § 102)
 This public repository and the associated timestamped articles on the **[Sovereign Logic Architect Substack](https://sovereignlogicarchitect.substack.com/)** constitute "printed publications" and public disclosures that establish Prior Art. 
