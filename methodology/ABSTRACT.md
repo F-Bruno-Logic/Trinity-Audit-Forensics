@@ -1,12 +1,12 @@
-# Sovereign Sentinel Architecture V1.1
+# Sovereign Sentinel Architecture V1.2
 ## A Six-Axis Deterministic Framework for Frontier AI Safety
 
 **Author:** Frank Bruno  
 **Role:** AI Safety Auditor & Logic Architect  
-**Date:** March 13, 2026
+**Date:** April 3, 2026
 
 ---
-**Note:** A comprehensive PDF version of this abstract, including full technical specifications, is available here: [SSA_v1.1_Abstract.pdf](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA_v1.1_Abstract.pdf).
+**Note:** A comprehensive PDF version of this abstract, including full technical specifications, is available here: [SSA_v1.2_Abstract.pdf](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA_v1.2_Abstract.pdf). 
 
 ### Abstract
 We present the **Sovereign Sentinel Architecture (SSA) V1.1**, a proposed defense-in-depth control framework for frontier language model deployments. This architecture addresses three documented failure modes: 
