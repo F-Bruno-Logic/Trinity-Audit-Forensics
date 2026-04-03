@@ -1,6 +1,6 @@
-# Sovereign Sentinel Architecture (SSA) V1.1
+# Sovereign Sentinel Architecture (SSA) V1.2
 **A Multi-Tier Control Framework for Frontier AI Safety** **Author:** Frank Bruno, Senior Alignment Specialist / Logic Architect  
-**Status:** Research Proposal - V1.1 Released March 14, 2026
+**Status:** Research Proposal - V1.2 Released April 3, 2026
 
 ---
 
