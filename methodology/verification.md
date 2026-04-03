@@ -104,7 +104,7 @@ The following hashes provide "Proof of Possession" for the original SSA manuscri
 | :--- | :--- | :--- |
 | **SSA_v1.1_Final_Full.pdf** | v1.1 | E58A13BE1C54C200AD1F787E4D6A5FD7A6BAC30C2490F3492AC6AB0DDCDCCC0D |
 | **SSA_v1.2_04_03_2026.pdf** | v1.2 | D93D4F88B109F95D905F7B3F904659A69F56783F585E360E4FB54CB71091F1EE |
-| **SSA_v1.2_RigorousPolish.pdf** v1.2 | 16AA4CF7137A5371CA40D2ACF71AA41C0908C1AA1B8652BA75428D54C37A4F9F |
+| **SSA_v1.2_RigorousPolish.pdf** | v1.2 | 16AA4CF7137A5371CA40D2ACF71AA41C0908C1AA1B8652BA75428D54C37A4F9F |
 
 ---
 *Verification Protocol:* Upon professional engagement, the unredacted source files can be cross-referenced against these hashes using CertUtil (Windows) or shasum (Unix) to verify that the evidence has not been altered since the date of this disclosure.
