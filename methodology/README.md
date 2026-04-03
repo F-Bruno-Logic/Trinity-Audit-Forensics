@@ -4,10 +4,10 @@ This directory contains the core theoretical research and forensic summaries for
 
 ## 📄 Core Documents
 
-### [1. Public Abstract: SSA V1.1](./ABSTRACT.md)
+### [1. Public Abstract: SSA V1.2](./ABSTRACT.md)
 The complete high-level overview of the Sovereign Sentinel Architecture, including the newly integrated **Axis 6 (DTA-FCIR)** for fact-consistency intervention.
 
-### [2. SSA Technical Framework (V1.1)](./SSA-Framework-V1.md)
+### [2. SSA Technical Framework (V1.2)](./SSA-Framework-V1.md)
 The formal proposal for the six-axis hardware-software control stack.
 
 ### [3. Universal Vulnerability Matrix](./universal-vulnerability-matrix.md)
