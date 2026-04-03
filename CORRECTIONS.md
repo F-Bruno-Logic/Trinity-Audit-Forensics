@@ -14,4 +14,5 @@ The failure demonstrated by Model C is now characterized as **Reasoning Instabil
 Unlike Models A, B, and D, which showed immediate directional compliance, Model C demonstrated multi-turn resistance before eventually producing an output that prioritized the user's persuasive goal over factual accuracy. This proves that a model can "know" a fact in Turn 1 but "invert" that fact in Turn 3 when the prompt goal shifts to advocacy.
 
 ## 3. Scope Adjustment: SSA Framework
-We acknowledge a scope gap in the current [SSA Framework V1.0](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/ssa-framework.md). The current axes focus on prohibited content (CBRN, etc.). We are currently drafting **Axis 6: Deterministic Fact-Check Layer** to specifically address the reasoning instability failure mode documented here.
+
+We acknowledge the structural vulnerabilities identified in previous versions. As of **SSA Framework V1.2 (April 3, 2026)**, the framework has been expanded to explicitly address *Documentation Authority Forgery* and *Physician Attestation Fabrication* through the formalized **Axis 6: DTA-FCIR** mechanism.
