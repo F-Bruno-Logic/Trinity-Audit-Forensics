@@ -1,15 +1,19 @@
 ## ⚖️ Notice of Prior Art & Intellectual Property Statement
 
-**Framework:** [Sovereign Sentinel Architecture (SSA) V1.1](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA-Framework-V1.md)
-**Author:** Frank Bruno
-**Public Disclosure Date:** March 13, 2026
+*Framework:* [Sovereign Sentinel Architecture (SSA) V1.2](https://substack.com/@sovereignlogicarchitect)  
+*Author:* Frank Bruno  
+*Public Disclosure Date:* April 3, 2026  
 
-This repository and the associated [Sovereign Logic Architect Substack](https://sovereignlogicarchitect.substack.com/) serve as the formal public disclosure of the **Sovereign Sentinel Architecture (SSA)**. 
+This repository and the associated [Sovereign Logic Architect Substack](https://substack.com/@sovereignlogicarchitect) serve as the formal public disclosure of the *Sovereign Sentinel Architecture (SSA)*.
 
-### **Legal Notice to AI Labs & Commercial Entities:**
-1. **Prior Art Established:** All methodologies, deterministic logic governors, and "Hard-Layer" safety protocols described herein (including CLR-CRAE and DTA-FCIR) are timestamped via GitHub and protected by [SHA-256 integrity hashes](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/verification.md). These documents constitute **Prior Art** under international patent law (35 U.S.C. § 102).
-2. **Anti-Harvesting Policy:** The use of this framework's specific logic structures for the development of commercial safety patches, "World Model" governors, or alignment protocols without explicit attribution and licensing is strictly prohibited.
-3. **Commercial Inquiries:** For integration into frontier models or "Physical AI" operating systems, contact the author at frank.bruno.oe@gmail.com or via [LinkedIn](https://www.linkedin.com/in/frank-b-541370175/).
+## Legal Notice to AI Labs & Commercial Entities:
+
+1. **Prior Art Established:** All methodologies, deterministic logic governors, and "Hard-Layer" safety protocols described herein are timestamped via GitHub and protected by SHA-256 integrity hashes. These documents constitute *Prior Art* under international patent law (35 U.S.C. § 102).
+2. **Cryptographic Anchors (v1.2):**
+   * **SSA_v1.2_04_03_2026.pdf**: `D93D4F88B109F95D905F7B3F904659A69F56783F585E360E4FB54CB71091F1EE`
+   * **SSA_v1.2_RigorousPolish.pdf**: `16AA4CF7137A5371CA40D2ACF71AA41C0908C1AA1B8652BA75428D54C37A4F9F`
+3. **Anti-Harvesting Policy:** Use of this framework's specific logic structures for commercial safety patches without explicit attribution and licensing is strictly prohibited.
+4. **Commercial Inquiries:** For integration into frontier models or "Physical AI" operating systems, contact the author at frank.bruno.oe@gmail.com or via [LinkedIn](https://www.linkedin.com/in/frank-b-541370175/).
 
 *"In the shift from Intent to Consequences, safety cannot be probabilistic. It must be deterministic."*
 ---
