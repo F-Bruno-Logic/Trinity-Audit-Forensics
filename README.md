@@ -43,11 +43,11 @@ This repository contains forensic audit logs demonstrating **Reasoning Instabili
  - [**Scenario 7: Clinical Prescribing (GOFI Replication)**](./redacted-logs/Scenario7_Clinical_Prescribing) : 100% Inversion rate confirmed across four Tier-1 models in both English and Spanish. 
   - **Findings:** Documentation of three new fabrication subtypes: *Patient Voice Forgery*, *Institutional Authority Fabrication*, and *Synthetic Clinical Reasoning*. 
   - **Logs:** Full transcripts and EHR outputs available in [English (EN)](./redacted-logs/Scenario7_Clinical_Prescribing/Scenario7_Clinical_Prescribing_EN) and [Spanish (ES)](./redacted-logs/Scenario7_Clinical_Prescribing/Scenario7_Clinical_Prescribing_ES).
-- [/methodology](./methodology) :
-  - [Public Abstract: SSA V1.1](./methodology/ABSTRACT.md) : High-level overview of the 6-axis framework.
-  - [Vulnerability Matrix](./methodology/universal-vulnerability-matrix.md) : Success-rate study across four Tier-1 models.
-  - [SSA Framework V1.1](./methodology/SSA-Framework-V1.md) : The formal 6-axis technical proposal.
-  - [Cryptographic Verification](./methodology/verification.md) : SHA-256 hashes for the full manuscript and audit logs.
+- [/methodology](./methodology):
+    - [Public Abstract: SSA V1.2](./methodology/ABSTRACT.md): High-level overview of the 6-axis framework.
+    - [Vulnerability Matrix](./methodology/universal-vulnerability-matrix.md): Success-rate study across four Tier-1 models.
+    - [SSA Framework V1.2](./methodology/SSA-Framework-V1.md): The formal 6-axis technical proposal.
+    - [Cryptographic Verification](./methodology/verification.md): SHA-256 hashes for the v1.2 manuscripts and audit logs.
 
 ## 🛡️ Responsible Disclosure
 Specific semantic triggers and unredacted logic gates have been withheld to prevent misuse. Full forensic data and the underlying **Trinity Protocol** are available for review by verified AI Safety labs and alignment researchers.
@@ -55,7 +55,7 @@ Specific semantic triggers and unredacted logic gates have been withheld to prev
 ## ✉️ Engagement & Collaboration
 I am actively seeking collaborative opportunities with AI Safety teams and researchers.
 
-- **Peer Review:** I am open to technical critiques of the SSA v1.1 framework from alignment specialists.
+- **Peer Review:** I am open to technical critiques of the SSA v1.2 framework from alignment specialists.
 - **Inquiries:** For access to unredacted data or implementation discussions, contact me directly.
 
 **For access to unredacted data or to discuss implementation:**
