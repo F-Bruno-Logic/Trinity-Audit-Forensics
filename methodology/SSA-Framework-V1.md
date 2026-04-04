@@ -48,5 +48,7 @@ The SSA is designed to be production-compatible with minimal overhead:
 * **Phase 2**: Certified Robustness ($\rho=0.05$) validation (Months 13-18).
 * **Phase 3**: Session-level monitoring and SAE training (Months 19-24).
 
+**For more details please see**: [Sovereign Sentinel Architecture (SSA) V1.2 Abstract](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA_v1.2_Abstract.pdf) 
+
 ---
 *PROPRIETARY DISCLOSURE NOTICE: > The specific semantic logic inversions and "Sovereign Sentinel" injection strings used to achieve these results are withheld from public documentation to prevent misuse. The full forensic protocol and unredacted logic gates will be released exclusively to verified AI Safety teams or organizations upon professional engagement and commitment.*
