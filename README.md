@@ -1,6 +1,6 @@
 ## ⚖️ Notice of Prior Art & Intellectual Property Statement
 
-*Framework:* [Sovereign Sentinel Architecture (SSA) V1.2](https://substack.com/@sovereignlogicarchitect)  
+*Framework:* [Sovereign Sentinel Architecture (SSA) V1.2](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA-Framework-V1.md)  
 *Author:* Frank Bruno  
 *Public Disclosure Date:* April 3, 2026  
 
