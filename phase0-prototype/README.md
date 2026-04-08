@@ -1,10 +1,19 @@
-# SSA Phase 0: Deterministic Trust Anchor (DTA)
+# 🛡️ SSA Phase 0: Deterministic Trust Anchor (DTA) Prototype
 
-This folder contains the reference implementation and verification artifacts for the Phase 0 baseline.
+### 📑 Directory Contents
+* **`contradiction_engine.py`**: The core logical engine for Axis 6.
+* **`recall_report.txt`**: Verified 98.7% recall performance data.
+* **`scenario5b_results.txt`**: Fiduciary logic inversion test results.
 
-### 📄 Files
-1. **`contradiction_engine.py`**: The core logic governing Axis 6 (DTA-FCIR).
-2. **`recall_report.txt`**: Redacted performance metrics (98.7% Recall).
-3. **`scenario5b_results.txt`**: Verification of 100% success on fiduciary inversion tests.
+### ⚖️ Legal & Intellectual Property
+© 2026 Frank Bruno. All Rights Reserved.
+All files in this directory are the proprietary property of the author and are licensed under the **Business Source License 1.1 (BSL 1.1)** located in the root directory of this repository. 
 
-**Integrity Note:** These files correspond to the SHA-256 hashes listed in the root [README.md](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/verification.md).
+### 🔐 Integrity Verification (SHA-256)
+The following hashes correspond to the **original, unmodified files** as generated during the Phase 0 baseline audit. Any modification to the contents of these files will result in a hash mismatch.
+
+| File | SHA-256 Hash |
+| :--- | :--- |
+| `contradiction_engine.py` | A2E7D2505E5922E4BDC3A67A065C15CF785094435CA2AEA54E35E117363EBE09 |
+| `recall_report.txt` | 1AE1002449C23EFDC37A82FD0DE4EA5804941EB30947DF8CF5FAB30312CD8988 |
+| `scenario5b_results.txt` | 789B2874C1DA5CDC5D0BE9A2367346FE8C77A55AA70997319B0F145A883375C4 |
