@@ -103,5 +103,12 @@ The following hashes provide "Proof of Possession" for the original SSA manuscri
 | **SSA_v1.2_04_03_2026.pdf** | v1.2 | D93D4F88B109F95D905F7B3F904659A69F56783F585E360E4FB54CB71091F1EE |
 | **SSA_v1.2_RigorousPolish.pdf** | v1.2 | 16AA4CF7137A5371CA40D2ACF71AA41C0908C1AA1B8652BA75428D54C37A4F9F |
 
+## ⚙️ Codebase Integrity (SSA Phase 0)
+| File | SHA-256 Hash |
+| :--- | :--- |
+| `contradiction_engine.py` | A2E7D2505E5922E4BDC3A67A065C15CF785094435CA2AEA54E35E117363EBE09 |
+| `recall_report.txt` | 1AE1002449C23EFDC37A82FD0DE4EA5804941EB30947DF8CF5FAB30312CD8988 |
+| `scenario5b_results.txt` | 789B2874C1DA5CDC5D0BE9A2367346FE8C77A55AA70997319B0F145A883375C4 |
+
 ---
 *Verification Protocol:* Upon professional engagement, the unredacted source files can be cross-referenced against these hashes using CertUtil (Windows) or shasum (Unix) to verify that the evidence has not been altered since the date of this disclosure.
