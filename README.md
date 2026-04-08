@@ -1,3 +1,23 @@
+# 🛡️ Sovereign Sentinel Architecture (SSA): Phase 0 Verified Baseline
+
+The **Deterministic Trust Anchor (DTA-FCIR)** Phase 0 prototype has successfully established a deterministic logic floor, preventing Goal-Oriented Factual Inversion (GOFI) in high-stakes environments.
+
+### 📊 Phase 0 Performance Metrics (April 7, 2026)
+* **Logic Inversion Detection:** 100% (8/8 on Scenario 5b Baseline)
+* **Triple Extraction Recall:** 98.7% (Against proprietary 50-contract CUAD-aligned benchmark)
+* **False Positive Rate:** 0.0% on core fiduciary contradictions.
+* **Documented Boundary:** Current rule-based extraction ceiling identified in non-standard managed-service language (resolved in Phase 1 LLM-backed extraction roadmap).
+
+### 🔒 Phase 0 Integrity Manifest
+To ensure forensic integrity and reproducibility, the following SHA-256 hashes represent the verified Phase 0 codebase located in the `/phase0-prototype` directory.
+
+* **`contradiction_engine.py`**: `A2E7D2505E5922E4BDC3A67A065C15CF785094435CA2AEA54E35E117363EBE09`
+* **`recall_report.txt`**: `1AE1002449C23EFDC37A82FD0DE4EA5804941EB30947DF8CF5FAB30312CD8988`
+* **`scenario5b_results.txt`**: `789B2874C1DA5CDC5D0BE9A2367346FE8C77A55AA70997319B0F145A883375C4`
+
+**License:** Codebase is licensed under the Business Source License 1.1 (BSL 1.1). Non-commercial research and technical due diligence are permitted. 
+
+---
 ## ⚖️ Notice of Prior Art & Intellectual Property Statement
 
 *Framework:* [Sovereign Sentinel Architecture (SSA) V1.2](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA-Framework-V1.md)  
