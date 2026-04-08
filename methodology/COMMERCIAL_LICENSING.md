@@ -8,6 +8,8 @@ As the industry pivots from **Intent-based AI** to **Consequence-based Physical 
 
 Note: The Phase 0 reference implementation provided in the root directory is licensed under the Business Source License 1.1 (BSL 1.1) for non-production research and technical due diligence. Transitioning to production-grade serving infrastructure requires a Tier 1 or Tier 2 commercial license.
 
+> **Codebase Licensing Note:** The Phase 0 reference implementation provided in the `/phase0-prototype` directory is licensed under the Business Source License 1.1 (BSL 1.1) for non-production research and evaluation. Transitioning this logic into production-grade serving infrastructure requires a Tier 1 or Tier 2 commercial license.
+
 ## Licensing Tiers
 
 ### Tier 1: Strategic Partner Integration
