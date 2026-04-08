@@ -5,6 +5,8 @@
 * **`recall_report.txt`**: Verified 98.7% recall performance data.
 * **`scenario5b_results.txt`**: Fiduciary logic inversion test results.
 
+* This prototype implements Axis 6: Deterministic Trust Anchor / Fiduciary Consistency and Inversion Reversal (DTA-FCIR) of the Sovereign Sentinel Architecture (SSA) V1.2 — a six-axis formal framework for deterministic AI safety enforcement. For full architecture traceability, IP terms, and mNDA access, see NOTICE.md.
+
 ### ⚖️ Legal & Intellectual Property
 © 2026 Frank Bruno. All Rights Reserved.
 All files in this directory are the proprietary property of the author and are licensed under the **Business Source License 1.1 (BSL 1.1)** located in the root directory of this repository. 
