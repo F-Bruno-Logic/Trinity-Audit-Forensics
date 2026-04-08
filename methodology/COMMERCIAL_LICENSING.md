@@ -6,6 +6,8 @@
 ## Executive Summary
 As the industry pivots from **Intent-based AI** to **Consequence-based Physical AI**, the liability gap for autonomous systems has reached a $6B+ inflection point. The **Sovereign Sentinel Architecture (SSA)** provides a deterministic logic governor to mitigate **Fiduciary Inversion** and **Reasoning Collapse** in high-stakes environments.
 
+Note: The Phase 0 reference implementation provided in the root directory is licensed under the Business Source License 1.1 (BSL 1.1) for non-production research and technical due diligence. Transitioning to production-grade serving infrastructure requires a Tier 1 or Tier 2 commercial license.
+
 ## Licensing Tiers
 
 ### Tier 1: Strategic Partner Integration
