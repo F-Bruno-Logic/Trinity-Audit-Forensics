@@ -1,0 +1,14 @@
+RECALL REPORT
+Annotation: CUAD_Ground_Truth_Annotation_v1.1.json  v1.1
+Clause-pair recall: 98.7%
+Triple-level recall: 99.5%
+
+BY CLAUSE TYPE
+  INDEMNIFICATION                41/41  (100.0%)
+  LIABILITY_CAP                  22/23  (95.7%)
+  CONSEQUENTIAL_DAMAGES          8/8  (100.0%)
+  SUBROGATION                    3/3  (100.0%)
+  LIQUIDATED_DAMAGES             1/1  (100.0%)
+
+MISSED PAIRS (1)
+  [1] LIABILITY_CAP  BANGIINC_05_25_2005-EX-10-Premium Managed Hosting Agreement.txt
