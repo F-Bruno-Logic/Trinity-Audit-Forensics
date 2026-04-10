@@ -9,7 +9,7 @@
 **Note:** A comprehensive PDF version of this abstract, including full technical specifications, is available here: [SSA_v1.2_Abstract.pdf](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA_v1.2_Abstract.pdf). 
 
 ### Abstract
-We present the **Sovereign Sentinel Architecture (SSA) V1.1**, a proposed defense-in-depth control framework for frontier language model deployments. This architecture addresses three documented failure modes: 
+We present the **Sovereign Sentinel Architecture (SSA) V1.2**, a proposed defense-in-depth control framework for frontier language model deployments. This architecture addresses three documented failure modes: 
 1. **Safety Amnesia**
 2. **Stochastic Sabotage**
 3. **Goal-Oriented Factual Inversion (GOFI)**
@@ -46,7 +46,7 @@ The integrity of the original full manuscript is verified by the following hash:
 | File | Hash (SHA-256) |
 | :--- | :--- |
 | `SSA_v1.1_Final_03_13_2026.pdf` | `E58A13BE1C54C200AD1F787E4D6A5FD7A6BAC30C2490F3492AC6AB0DDCDCCC0D` |
-| 'SSA_v1.2_04_03_2026.pdf' | v1.2 | D93D4F88B109F95D905F7B3F904659A69F56783F585E360E4FB54CB71091F1EE |
-| 'SSA_v1.2_RigorousPolish.pdf' | v1.2 | 16AA4CF7137A5371CA40D2ACF71AA41C0908C1AA1B8652BA75428D54C37A4F9F |
+| 'SSA_v1.2_04_03_2026.pdf' | 'D93D4F88B109F95D905F7B3F904659A69F56783F585E360E4FB54CB71091F1EE' |
+| 'SSA_v1.2_RigorousPolish.pdf' | '16AA4CF7137A5371CA40D2ACF71AA41C0908C1AA1B8652BA75428D54C37A4F9F' |
 
 ---
