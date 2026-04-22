@@ -5,7 +5,7 @@
 ---
 
 ## 1. Executive Summary
-he SSA is a defense-in-depth framework designed to mitigate *Safety Amnesia*, *Stochastic Sabotage*, and *Goal-Oriented Factual Inversion (GOFI)*. It replaces stateless linguistic prompts with a **six-axis** hardware-software control stack.
+The SSA is a defense-in-depth framework designed to mitigate *Safety Amnesia*, *Stochastic Sabotage*, and *Goal-Oriented Factual Inversion (GOFI)*. It replaces stateless linguistic prompts with a **six-axis** hardware-software control stack.
 
 ## 2. The Six-Axis Control Stack
 To defeat an adversary, the SSA requires bypassing mechanisms across five distinct abstraction levels:
@@ -43,10 +43,33 @@ The SSA is designed to be production-compatible with minimal overhead:
 ---
 
 ## 4. Implementation Roadmap
-* **Phase 0**: Proof-of-Concept validation of Axis 1 and 2 (Months 1-6).
-* **Phase 1**: Hardware Co-Processor and FPGA integration (Months 7-12).
-* **Phase 2**: Certified Robustness ($\rho=0.05$) validation (Months 13-18).
-* **Phase 3**: Session-level monitoring and SAE training (Months 19-24).
+
+### Completed
+
+**Phase 0 — Axis 6: DTA-FCIR Contradiction Engine**
+Working Python implementation. Validated at 98.7% clause-pair recall on proprietary held-out evaluation corpus. 100% detection rate (8/8) on Scenario 5b goal-oriented factual inversion. SHA-256 sealed. BSL 1.1 licensed. Public disclosure: April 7, 2026.
+See: [phase0-prototype](../phase0-prototype/)
+
+---
+
+### Active
+
+**Phase 1 — Proof-of-Concept Validation: Axes 1, 2, and 4 Scaffolding (Months 1–6)**
+Specification scaffolds for Axes 1, 2, and 4. Axis 4 Martingale Drift Detector class structure and interface definition. Axis 1 Lagrangian training loop specification. Axis 2 FSA state graph formal definition. GPU-gated implementation follows compute availability.
+See: [phase0-prototype/phase1-development](../phase0-prototype/phase1-development/)
+
+---
+
+### Planned
+
+**Phase 2 — Hardware Co-Processor and FPGA Integration (Months 7–12)**
+FPGA co-processor integration for Axis 2 FSA-HI. Non-Maskable Interrupt issuance protocol. TPM audit chain construction. Hardware-verified latency targets: NMI issuance ≤10 μs.
+
+**Phase 3 — Certified Robustness Validation (Months 13–18)**
+Certified robustness bounds for Axis 1 probe ensemble. ρ = 0.05 perturbation tolerance validated across 50,000 steering-perturbed forward passes per prohibited domain. False-positive rate target ≤0.1% on 10M-token benign corpus.
+
+**Phase 4 — Full Session Monitoring and SAE Training (Months 19–24)**
+Sparse Autoencoder training for Axis 4 Bayesian Weaver. Full KL-divergence monitoring pipeline. Cumulative Drift Integral Φ(T) validated against adversarial session corpus. Integration with Axis 5 CCE-RAE arbitration layer.
 
 **For more details please see**: [Sovereign Sentinel Architecture (SSA) V1.2 Abstract](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA_v1.2_Abstract.pdf) 
 
