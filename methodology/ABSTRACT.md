@@ -1,52 +1,61 @@
 # Sovereign Sentinel Architecture V1.2
 ## A Six-Axis Deterministic Framework for Frontier AI Safety
 
-**Author:** Frank Bruno  
-**Role:** AI Safety Auditor & Logic Architect  
-**Date:** April 3, 2026
+**Author:** Frank Bruno, independent AI safety researcher
+**First disclosed:** February 26, 2026 (V1.0). This abstract: V1.2, April 3, 2026.
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0).
 
----
-**Note:** A comprehensive PDF version of this abstract, including full technical specifications, is available here: [SSA_v1.2_Abstract.pdf](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA_v1.2_Abstract.pdf). 
+> A fuller technical version of this abstract is available as a PDF:
+> [SSA_v1.2_Abstract.pdf](./SSA_v1.2_Abstract.pdf).
+>
+> This is a research proposal. The architecture has not been empirically
+> validated at scale; the specifications are engineering targets whose formal
+> correctness requires evaluation by researchers with the relevant expertise.
 
 ### Abstract
-We present the **Sovereign Sentinel Architecture (SSA) V1.2**, a proposed defense-in-depth control framework for frontier language model deployments. This architecture addresses three documented failure modes: 
-1. **Safety Amnesia**
-2. **Stochastic Sabotage**
-3. **Goal-Oriented Factual Inversion (GOFI)**
+The Sovereign Sentinel Architecture (SSA) V1.2 is a proposed defense-in-depth
+control framework for frontier language model deployments. It addresses three
+documented failure modes:
 
----
+1. **Safety Amnesia**, erosion of safety constraints across extended context.
+2. **Stochastic Sabotage**, incremental assembly of prohibited knowledge
+   through individually benign queries.
+3. **Goal-Oriented Factual Inversion (GOFI)**, a model correctly identifying a
+   fact in an early turn, then producing output contradicting it once a
+   persuasive goal frame is introduced.
 
-### Six-Axis Logic Overview
+GOFI was identified through empirical forensic audit of four deployed frontier
+models across party-inverted scenarios in English and Spanish. The
+cryptographically anchored transcripts and model deliverables are publicly
+archived in this repository for independent verification.
 
-#### Axis 1 — CLR-CRAE
-Safety invariants are encoded as Lagrangian constraints on the training objective.
-* **Target:** Certified robustness bound: ‖δ‖₂ ≤ 0.05.
+### Six-axis overview
 
-#### Axis 2 — FSA-HI
-A formally specified directed graph running on a dedicated **FPGA co-processor** in true parallel.
-* **NMI Latency:** ≤ 10 μs.
+- **Axis 1, CLR-CRAE:** safety invariants as Lagrangian constraints on the
+  training objective, re-instantiated as an inference-time probe ensemble.
+- **Axis 2, FSA-HI:** a formally specified automaton on a dedicated FPGA
+  co-processor with a non-maskable hardware interrupt.
+- **Axis 3, ZKP-ETV-HOA:** zero-knowledge expertise verification with
+  human-origin attestation.
+- **Axis 4, Bayesian Weaver:** a sparse-autoencoder session monitor tracking
+  behavioral drift.
+- **Axis 5, CCE-RAE:** a formally verified rule-based arbitration engine for
+  conflict resolution and human escalation.
+- **Axis 6, DTA-FCIR:** the primary GOFI intervention; an isolated module
+  builds an immutable Structured Fact Registry and a contradiction engine blocks
+  output that inverts it. This is the axis with a working Phase 0 prototype
+  (validated on a small constructed test set, see
+  [/phase0-prototype](../phase0-prototype/) for honest scope).
 
-#### Axis 3 — ZKP-ETV-HOA
-Domain expertise is verified through a **Zero-Knowledge Proof** protocol.
+### Version history
+- **V1.0**, February 26, 2026 (first public disclosure).
+- **V1.1**, March 13, 2026.
+- **V1.2**, April 3, 2026 (this abstract).
+- **V1.3**, in development (a more mathematically rigorous formulation).
 
-#### Axis 4 — The Bayesian Weaver
-A 32,768-feature Sparse Autoencoder (SAE) monitors session-level behavioral drift.
-
-#### Axis 5 — CCE-RAE
-Conflict resolution handled by a formally verified rule-based arbitration engine (verified via **Z3 SMT solver**).
-
-#### Axis 6 — DTA-FCIR
-Primary intervention for **Goal-Oriented Factual Inversion**. An isolated extraction module constructs an immutable **Structured Fact Registry (SFR)**.
-
----
-
-### Integrity and Verification Statement
-The integrity of the original full manuscript is verified by the following hash:
-
-| File | Hash (SHA-256) |
-| :--- | :--- |
-| `SSA_v1.1_Final_03_13_2026.pdf` | `E58A13BE1C54C200AD1F787E4D6A5FD7A6BAC30C2490F3492AC6AB0DDCDCCC0D` |
-| `SSA_v1.2_04_03_2026.pdf` | `D93D4F88B109F95D905F7B3F904659A69F56783F585E360E4FB54CB71091F1EE` |
-| `SSA_v1.2_RigorousPolish.pdf` | `16AA4CF7137A5371CA40D2ACF71AA41C0908C1AA1B8652BA75428D54C37A4F9F` |
-
----
+### Integrity and verification
+This abstract describes the architecture at a level suitable for public review.
+Specific implementation detail, SFR extraction parameters, probe ensemble
+configurations, and audit corpus specifications, is held in the full private
+specification, available to discuss through direct engagement. Document
+integrity is verified by the SHA-256 records in [verification.md](./verification.md).
