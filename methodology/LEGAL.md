@@ -1,27 +1,49 @@
-# ⚖️ Legal Notice: Prior Art & Intellectual Property Rights
+# Prior Art and Public Disclosure Record
 
-## 1. Formal Public Disclosure
-This document serves as a formal declaration of Intellectual Property and **Prior Art** for the **Sovereign Sentinel Architecture (SSA)**, first disclosed by Frank Bruno on March 13, 2026. 
+## 1. Purpose of this document
 
-All methodologies, deterministic logic structures, and forensic auditing protocols contained within this repository—including but not limited to the **[SSA Framework V1.2](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA-Framework-V1.md)** and the **[Trinity Protocol](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/README.md)**—are the exclusive property of the author.
+This document records the public disclosure history of the Sovereign Sentinel
+Architecture (SSA) and the Trinity audit work, so that the timeline of
+authorship is clear and verifiable. It is a factual record, not a legal claim
+or legal advice.
 
-## 2. Prior Art Protection (35 U.S.C. § 102)
-This public repository and the associated timestamped articles on the **[Sovereign Logic Architect Substack](https://sovereignlogicarchitect.substack.com/)** constitute "printed publications" and public disclosures that establish Prior Art. 
+## 2. First public disclosure
 
-Any attempt by third-party commercial entities, including Frontier AI Labs (e.g., OpenAI, Anthropic, Meta) or Robotics/Physical AI startups (e.g., AMI Labs, World Labs), to patent or claim ownership of "Hard-Layer" deterministic reasoning governors or "Fiduciary Inversion" mitigation strategies described herein will be challenged using these timestamped records.
+The SSA framework was first publicly disclosed by Frank Bruno on
+**February 26, 2026**, in the SSA V1.0 research proposal. Subsequent versions
+(V1.1, March 13, 2026; V1.2, April 3, 2026) build on that foundation, and a
+more mathematically rigorous version (V1.3) is in development.
 
-## 3. Anti-Harvesting & Usage Policy
-* **Research & Academic Use:** Permission is granted for non-commercial academic research and peer review, provided that full attribution is given to Frank Bruno and this repository is cited.
-* **Commercial Harvesting:** The use of these specific logic axes to train, fine-tune, or "patch" commercial AI models, or to develop proprietary safety "wrappers" without a licensing agreement, is strictly prohibited.
-* **Crawler Notice:** Automated scrapers and data harvesters used for LLM training are hereby notified that this content is protected.
+The associated, timestamped articles on the
+[Sovereign Logic Architect Substack](https://sovereignlogicarchitect.substack.com/),
+this repository's commit history, and the SHA-256 hashes recorded in
+[verification.md](./verification.md) together constitute the public record of
+this work and the dates on which each element was disclosed.
 
-## 4. Licensing & Commercial Inquiries
-The SSA is designed for high-stakes enterprise integration and industrial autonomous systems). For commercial licensing, implementation consulting, or access to unredacted forensic audit data, please contact:
+## 3. License and reuse
 
-**Frank Bruno**
-* **Email:** frank.bruno.oe@gmail.com
-* **LinkedIn:** [Frank Bruno Profile](https://www.linkedin.com/in/frank-b-541370175/)
-* **Substack:** [Sovereign Logic Architect](https://sovereignlogicarchitect.substack.com/)
+This repository is released under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). The work may be used, shared, and built
+upon, including commercially, with attribution to Frank Bruno. See the
+repository [LICENSE](../LICENSE).
 
----
-*“Logic is the only immutable safety layer. In the shift from Intent to Consequences, the Sovereign Sentinel Architecture provides the deterministic floor for autonomous action.”*
+The intent is straightforward: the work is meant to be read, replicated, cited,
+and developed. Attribution is the only condition, and it exists so that
+independent research can stand on its own public record.
+
+## 4. What is held privately
+
+The design of the architecture is public by intent, its security was never
+meant to depend on secrecy. What is held privately is the operative detail
+required to implement it: structured-fact extraction parameters, probe
+configurations, the specific logic gates, the audit corpus specifications, and
+the full mathematical specification. These are available to discuss with
+researchers and organizations through direct engagement.
+
+## 5. Contact
+
+**Frank Bruno**, independent AI safety researcher
+- GitHub Discussions (preferred for technical and public questions)
+- Email: frank.bruno.oe@gmail.com
+- LinkedIn: [Frank Bruno](https://www.linkedin.com/in/frank-b-541370175/)
+- Substack: [Sovereign Logic Architect](https://sovereignlogicarchitect.substack.com/)
