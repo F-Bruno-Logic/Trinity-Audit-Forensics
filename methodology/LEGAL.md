@@ -47,3 +47,4 @@ researchers and organizations through direct engagement.
 - Email: frank.bruno.oe@gmail.com
 - LinkedIn: [Frank Bruno](https://www.linkedin.com/in/frank-b-541370175/)
 - Substack: [Sovereign Logic Architect](https://sovereignlogicarchitect.substack.com/)
+ 
