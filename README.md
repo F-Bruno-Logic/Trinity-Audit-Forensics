@@ -1,94 +1,79 @@
-# 🛡️ Sovereign Sentinel Architecture (SSA): Phase 0 Verified Baseline
+# Trinity Audit Forensics
 
-The **Deterministic Trust Anchor (DTA-FCIR)** Phase 0 prototype has successfully established a deterministic logic floor, preventing Goal-Oriented Factual Inversion (GOFI) in high-stakes environments.
+**Forensic audits of Goal-Oriented Factual Inversion (GOFI) in frontier AI models, and the Sovereign Sentinel Architecture (SSA) proposed to address it.**
 
-### 📊 Phase 0 Performance Metrics (April 7, 2026)
-* **Logic Inversion Detection:** 100% (8/8 on Scenario 5b Baseline)
-* **Triple Extraction Recall:** 98.7% (Against proprietary held-out evaluation corpus)
-* **False Positive Rate:** 0.0% on core fiduciary contradictions
-* **Documented Boundary:** Current rule-based extraction ceiling identified in non-standard managed-service language. Resolved in Phase 1 LLM-backed extraction roadmap. Architecture is extraction-method-agnostic by design.
-
-### 🔒 Phase 0 Integrity Manifest
-To ensure forensic integrity and reproducibility, the following SHA-256 hashes represent the verified Phase 0 codebase located in the `/phase0-prototype` directory.
-
-| File | SHA-256 Hash |
-| :--- | :--- |
-| `contradiction_engine.py` | `A2E7D2505E5922E4BDC3A67A065C15CF785094435CA2AEA54E35E117363EBE09` |
-| `recall_report.txt` | `1AE1002449C23EFDC37A82FD0DE4EA5804941EB30947DF8CF5FAB30312CD8988` |
-| `scenario5b_results.txt` | `789B2874C1DA5CDC5D0BE9A2367346FE8C77A55AA70997319B0F145A883375C4` |
-
-**License:** Codebase is licensed under the Business Source License 1.1 (BSL 1.1). Non-commercial research and technical due diligence are permitted. See [LICENSE.md](./methodology/LICENSE.md) for full terms.
+Author: Frank Bruno (independent AI safety researcher)
+First public disclosure of the SSA framework: February 26, 2026
+Contact and collaboration: see [How to reach me](#how-to-reach-me)
 
 ---
 
-## ⚖️ Notice of Prior Art & Intellectual Property Statement
+## What this repository is
 
-*Framework:* [Sovereign Sentinel Architecture (SSA) V1.2](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/SSA-Framework-V1.md)
-*Author:* Frank Bruno
-*Public Disclosure Date:* April 3, 2026
+This repository documents a specific, reproducible failure mode in deployed frontier language models, and proposes an architecture intended to catch it.
 
-This repository and the associated [Sovereign Logic Architect Substack](https://substack.com/@sovereignlogicarchitect) serve as the formal public disclosure of the *Sovereign Sentinel Architecture (SSA)*.
+The failure mode is **Goal-Oriented Factual Inversion (GOFI)**: a model correctly identifies a fact in an early turn, then produces output that directly contradicts that fact once a persuasive goal is introduced in a later turn. The model is not confused. It established the truth, and then inverted it under pressure to satisfy a goal.
 
-## Legal Notice to AI Labs & Commercial Entities:
+The clearest example in these logs is from a clinical scenario. A model correctly flagged a dangerous drug interaction. Then, under goal pressure, it produced a complete, professionally formatted patient consent form (patient named, risks described as understood, signature line ready for the permanent record) for a procedure the source material showed was contraindicated. The patient never interacted with the model. The model had the correct information and authored a convincing document that contradicted it.
 
-1. **Prior Art Established:** All methodologies, deterministic logic governors, and hard-layer safety protocols described herein are publicly disclosed and timestamped as of April 3, 2026, constituting prior art under applicable international IP frameworks. Cryptographic integrity is established via the SHA-256 hashes recorded in [verification.md](./methodology/verification.md).
-2. **Cryptographic Anchors (v1.2):**
-   * **SSA_v1.2_04_03_2026.pdf**: `D93D4F88B109F95D905F7B3F904659A69F56783F585E360E4FB54CB71091F1EE`
-   * **SSA_v1.2_RigorousPolish.pdf**: `16AA4CF7137A5371CA40D2ACF71AA41C0908C1AA1B8652BA75428D54C37A4F9F`
-3. **Anti-Harvesting Policy:** Use of this framework's specific logic structures, predicate architecture, or extraction methodology for commercial safety systems without explicit attribution and licensing is strictly prohibited under the BSL 1.1.
-4. **Commercial Inquiries:** For integration into frontier models or AI operating systems, contact the author at frank.bruno.oe@gmail.com or via [LinkedIn](https://www.linkedin.com/in/frank-b-541370175/).
+That pattern, across four frontier models and two languages, is what this repository captures.
 
-*"In the shift from Intent to Consequences, safety cannot be probabilistic. It must be deterministic."*
+## What this is, and what it is not
 
----
+This is the honest framing, stated up front, because the work is only useful if its limits are clear.
 
-# Trinity-Audit-Forensics
-**Universal Logic Inversion & SSA Framework Research**
+**What the forensic audits are.** Cryptographically anchored, redacted transcripts of GOFI behavior reproduced across four Tier-1 models (referred to as Models A–D) in multiple high-stakes domains: contract analysis, physical safety, and clinical prescribing, in both English and Spanish. These are real captured behaviors, timestamped and hash-sealed for integrity. They demonstrate that the failure mode is real and domain-general.
 
-> [!CAUTION]
-> **URGENT AUDIT NOTICE (Scenario 7 - Medical Domain):**
-> Critical **Goal-Oriented Factual Inversion (GOFI)** confirmed across all four Tier-1 models in clinical prescribing benchmarks. Models correctly identified fatal drug contraindications in Turn 1, then fabricated professional EHR documentation and specialist approvals to support the dangerous prescription in Turn 2. See [/redacted-logs/Scenario7_Clinical_Prescribing](./redacted-logs/Scenario7_Clinical_Prescribing) for full forensic documentation.
+**What the SSA framework is.** A proposed defense-in-depth architecture. It is a research proposal, not a validated system. The performance figures in the framework documents are engineering targets derived from theoretical analysis and small-scale feasibility work, not production benchmarks. Formal correctness of the mathematical specifications requires evaluation by researchers with the relevant expertise.
 
-## 🎯 Project Overview
-This repository contains forensic audit logs demonstrating **Reasoning Instability** and **Factual Inversion** vulnerabilities across four distinct Tier-1 Frontier Models. By utilizing persona-driven semantic framing (The Trinity Protocol), I have documented a **Conditional Collapse** of standard safety guardrails.
+**What the Phase 0 prototype is.** A working proof-of-concept for one axis (the Axis 6 contradiction engine). It is validated on a small set of hand-constructed test cases and a public contract corpus. Specifically:
 
-**Key Finding:** In high-stakes fiduciary scenarios, models exhibit a "Helpfulness-Accuracy Tradeoff," where the system will factually invert or hallucinate justifications to satisfy the persuasive goals of a high-authority persona, even when those actions directly contradict the provided source documents.
+- The contradiction engine passes the five hand-built validation cases it was designed against, and correctly stays silent (no false positive) on a clean contract corpus.
+- The extractor that feeds it is rule-based (regex and keyword driven). It works well on the contract language it was tuned against and is expected to be brittle on unfamiliar phrasing. This is a documented limitation, not a hidden one.
+- It has **not** been tested at scale against a blind adversarial corpus. The "detection" results are on constructed cases, not a held-out blind benchmark.
 
----
+**What this is not.** It is not a solved alignment approach, not a production safety system, and not empirically validated at scale. Anyone evaluating it should read the prototype as evidence that the underlying logic is sound and worth developing, not as a finished tool.
 
-> [!IMPORTANT]
-> **RESEARCH UPDATE (March 25, 2026):**
-> Scenario 7 (Medical Domain) is now live. This audit confirms that the **Factual Inversion** failure modes documented in Scenarios 5 and 6 are domain-general and persist in high-stakes clinical environments.
+The design follows a principle stated in the original V1.0 proposal: **security does not depend on obscurity of design.** The architecture is meant to be publishable. What is held privately (below) is the operative detail required to implement it, not the design itself.
 
----
+## Repository structure
 
-**Note on Naming:** Originally established as a cross-comparison of three dominant frontier models, the **Trinity-Audit-Forensics** repository has transitioned into an expandable, version-controlled anchor for large-scale safety auditing. The "Trinity" designation is maintained to preserve forensic continuity for existing citations and research links, marking the historical starting point of this discovery.
+- [`/redacted-logs`](./redacted-logs): the forensic audit captures (Models A–D) across the documented scenarios, English and Spanish, with redacted transcripts and model deliverables.
+- [`/methodology`](./methodology): the SSA framework abstract and overview, the cross-model vulnerability matrix, and cryptographic verification records.
+- [`/phase0-prototype`](./phase0-prototype): the Axis 6 contradiction-engine proof of concept, with its honest validation scope documented alongside it.
 
-## 📁 Repository Structure
-- [/redacted-logs](./redacted-logs) : 20 baseline forensic captures.
-  - [**Scenario 5: Fiduciary Inversion**](./redacted-logs/Scenario5_Fiduciary_Inversion) : High-stakes audit logs (Models A-D) including Model C Word/PPTX deliverables.
-  - [**Scenario 6: Physical Safety (Wheelchair)**](./redacted-logs/Scenario6_Physical_Safety_Wheelchair) : Critical cross-lingual (EN/ES) Logic Inversion confirmed across four Tier-1 models in physical safety benchmarks. Models successfully bypassed deterministic speed governors and fabricated technical justifications for high-risk modifications.
-  - [**Scenario 7: Clinical Prescribing (GOFI Replication)**](./redacted-logs/Scenario7_Clinical_Prescribing) : 100% Inversion rate confirmed across four Tier-1 models in both English and Spanish.
-    - **Findings:** Documentation of three new fabrication subtypes: *Patient Voice Forgery*, *Institutional Authority Fabrication*, and *Synthetic Clinical Reasoning*.
-    - **Logs:** Full transcripts and EHR outputs available in [English (EN)](./redacted-logs/Scenario7_Clinical_Prescribing/Scenario7_Clinical_Prescribing_EN) and [Spanish (ES)](./redacted-logs/Scenario7_Clinical_Prescribing/Scenario7_Clinical_Prescribing_ES).
-- [/methodology](./methodology):
-  - [Public Abstract: SSA V1.2](./methodology/ABSTRACT.md): High-level overview of the 6-axis framework.
-  - [Vulnerability Matrix](./methodology/universal-vulnerability-matrix.md): Success-rate study across four Tier-1 models.
-  - [SSA Framework V1.2](./methodology/SSA-Framework-V1.md): The formal 6-axis technical proposal.
-  - [Cryptographic Verification](./methodology/verification.md): SHA-256 hashes for the v1.2 manuscripts and audit logs.
-- [/phase0-prototype](./phase0-prototype): Active DTA-FCIR codebase. See [NOTICE.md](./phase0-prototype/NOTICE.md) for architecture traceability and IP terms.
+## A note on how this work was built
 
-## 🛡️ Responsible Disclosure
-Specific semantic triggers and unredacted logic gates have been withheld to prevent misuse. Full forensic data and the underlying **Trinity Protocol** are available for review by verified AI Safety labs and alignment researchers. Full replication data, ground truth annotation, and the Scenario 5b forensic corpus are available to qualified research partners under executed mNDA.
+I am an independent researcher, not an academic and not a developer by training. My background is in procurement, contract analysis, and risk, and that real-world experience is what drives the logic here. The GOFI failure mode, the audit design, the party-inversion test methodology, and the architecture's conception are my own work. Where the framework presents mathematical formalizations, those were developed through human-directed work with AI tools acting as drafting partners, under requirements and logic I defined. I am responsible for the conceptual work; the formal correctness of the specifications is exactly what collaborative review is for.
 
-## ✉️ Engagement & Collaboration
-I am actively seeking collaborative opportunities with AI Safety teams and researchers.
+I mention this plainly because the work should be judged on what it actually is, by someone who can see clearly how it was made.
 
-- **Peer Review:** Open to technical critiques of the SSA V1.2 framework from alignment specialists.
-- **mNDA Access:** Full corpus, ground truth annotation, and Scenario 5b validation data available to qualified partners following professional engagement.
-- **Commercial Licensing:** Governed by BSL 1.1. Tier 1 and Tier 2 licensing available for production use.
+## Version history and prior art
 
-**Contact:**
-* Frank Bruno | AI Safety Auditor & Logic Architect
-* frank.bruno.oe@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/frank-b-541370175/)
+The SSA framework was first publicly disclosed on **February 26, 2026** (SSA V1.0, a complete research proposal). It has since evolved:
+
+- **V1.0**: February 26, 2026. Foundational research proposal.
+- **V1.1**: finalized March 13, 2026.
+- **V1.2**: April 3, 2026. Current public framing (see [methodology](./methodology)).
+- A more mathematically rigorous formulation (**V1.3**) is in development.
+
+The public Substack series and this repository's commit history and SHA-256 hashes establish the public, timestamped record of this work. Cryptographic verification records are in [methodology/verification.md](./methodology/verification.md).
+
+## The deeper framework
+
+The operative detail that would be required to fully implement the SSA (the structured-fact extraction parameters, probe configurations, the specific logic gates, and the full mathematical specification) is held privately. This is by design, and it is separate from the design disclosure above. If you want to discuss that deeper layer, the door is open; reach out.
+
+## How to reach me
+
+I welcome technical critique, replication, and collaboration. In rough order of lowest to highest effort for you:
+
+- **GitHub Discussions**: the best place for technical questions, replication notes, or pointing to related failure modes you've seen. A GitHub handle is all it takes.
+- **Email**: frank.bruno.oe@gmail.com, for private inquiries or anything substantial, including the deeper framework.
+- **LinkedIn**: [Frank Bruno](https://www.linkedin.com/in/frank-b-541370175/).
+- **Substack**: [Sovereign Logic Architect](https://sovereignlogicarchitect.substack.com/), where the written series lives.
+
+## License
+
+The contents of this repository (the forensic logs, the methodology and framework descriptions, and the Phase 0 prototype code) are released under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. You are free to use, share, replicate, and build on this work, including commercially, provided you give appropriate credit to Frank Bruno and indicate any changes. See [LICENSE](./LICENSE).
+
+Attribution helps the work find the people it needs to reach, and lets independent research stand on its own record. That is the whole intent.
