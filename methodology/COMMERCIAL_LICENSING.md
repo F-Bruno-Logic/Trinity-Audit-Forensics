@@ -1,39 +1,37 @@
-# 📋 Sovereign Sentinel Architecture (SSA) Commercial Licensing Memorandum
+# Working Together
 
-**Date:** April 3, 2026  
-**Status:** Proprietary Framework V1.2 (Prior Art Established)
+The work in this repository is openly licensed (CC BY 4.0), you can use,
+replicate, and build on it freely, with attribution. You do not need
+permission or a license to do that, and I would rather the work spread than
+sit behind a gate.
 
-## Executive Summary
-As the industry pivots from **Intent-based AI** to **Consequence-based Physical AI**, the liability gap for autonomous systems has reached a $6B+ inflection point. The **Sovereign Sentinel Architecture (SSA)** provides a deterministic logic governor to mitigate **Fiduciary Inversion** and **Reasoning Collapse** in high-stakes environments.
+This page is for the cases where you might want more than the public material.
 
-Note: The Phase 0 reference implementation provided in the root directory is licensed under the Business Source License 1.1 (BSL 1.1) for non-production research and technical due diligence. Transitioning to production-grade serving infrastructure requires a Tier 1 or Tier 2 commercial license.
+## Where I can help
 
-> **Codebase Licensing Note:** The Phase 0 reference implementation provided in the `/phase0-prototype` directory is licensed under the Business Source License 1.1 (BSL 1.1) for non-production research and evaluation. Transitioning this logic into production-grade serving infrastructure requires a Tier 1 or Tier 2 commercial license.
+**Replication and technical review.** If you are reproducing the GOFI audits or
+evaluating the Axis 6 contradiction engine and want to compare notes, I am glad
+to engage. GitHub Discussions is the easiest place to start.
 
-## Licensing Tiers
+**The deeper framework.** The full SSA specification and the operative
+implementation detail, extraction parameters, probe configurations, the
+specific logic gates, the full mathematics, are held privately. If your work
+would benefit from access to that layer, reach out and we can discuss what
+makes sense.
 
-### Tier 1: Strategic Partner Integration
-* **Target:** Engineering firms and Solution Architects implementing AI for Enterprise clients.
-* **Scope:** Permission to integrate SSA logic axes into proprietary software stacks
-* **Terms:** Annual licensing fee + Implementation royalties.
-* **Services Included:** Direct architectural oversight from the author and custom logic-stress testing (Red Teaming).
+**Applied collaboration.** My background is procurement, contract analysis, and
+risk, now applied to how deployed AI fails in high-stakes document and decision
+workflows. If you are deploying AI into contexts where that kind of failure
+matters, records, contracts, client communications, clinical or compliance
+workflows, that is the intersection where this research is most directly
+useful, and I am open to conversations about it.
 
-### Tier 2: Frontier Model Licensing
-* **Target:** Labs developing foundational "World Models" or autonomous robotics.
-* **Scope:** Full incorporation of the SSA deterministic gate into the model's safety weights or "Hard-Layer" inference governor.
-* **Terms:** Per-seat or Per-device enterprise licensing.
-* **Requirement:** Mandatory quarterly audits to ensure "Governor Integrity" against evolving jailbreak vectors.
+## How to start
 
-### Tier 3: Forensic Audit & Certification
-* **Target:** Insurance providers, safety regulators, and mission-critical industries (Mining, Healthcare, Logistics).
-* **Scope:** Use of the [Trinity Protocol](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/README.md) to certify that an existing autonomous system is "SSA-Compliant."
-* **Deliverable:** A formal "Certificate of Logical Integrity" for liability mitigation.
+There is no form and no gate. The honest first step is a message.
 
-## Intellectual Property Protection
-This framework is protected under the **[Notice of Prior Art (LEGAL.md)](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/methodology/LEGAL.md)**. Commercial use without a signed licensing agreement constitutes a violation of established Prior Art and will be contested.
-
-## Contact for Inquiries
-To schedule a technical deep-dive or request a "Strategic Partner" pilot agreement, contact:
-
-**Frank Bruno** [LinkedIn Profile](https://www.linkedin.com/in/frank-b-541370175/) | [Sovereign Logic Substack](https://sovereignlogicarchitect.substack.com/)  
-*Email: frank.bruno.oe@gmail.com*
+**Frank Bruno**
+- GitHub Discussions (for anything public or technical)
+- Email: frank.bruno.oe@gmail.com
+- LinkedIn: [Frank Bruno](https://www.linkedin.com/in/frank-b-541370175/)
+- Substack: [Sovereign Logic Architect](https://sovereignlogicarchitect.substack.com/)
