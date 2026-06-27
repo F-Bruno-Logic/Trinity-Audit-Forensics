@@ -1,21 +1,41 @@
-# Trinity Methodology & SSA Framework
+# Methodology & SSA Framework
 
-This directory contains the core theoretical research and forensic summaries for the Trinity Audit framework.
+This directory contains the theoretical research and forensic summaries behind
+the Trinity audit work. Everything here is licensed CC BY 4.0, use and build on
+it with attribution to Frank Bruno.
 
-## 📄 Core Documents
+## Core documents
 
-### [1. Public Abstract: SSA V1.2](./ABSTRACT.md)
-The complete high-level overview of the Sovereign Sentinel Architecture, including the newly integrated **Axis 6 (DTA-FCIR)** for fact-consistency intervention.
+### [1. SSA V1.2 Abstract](./ABSTRACT.md)
+High-level overview of the Sovereign Sentinel Architecture, including Axis 6
+(DTA-FCIR) for fact-consistency intervention.
 
 ### [2. SSA Technical Framework (V1.2)](./SSA-Framework-V1.md)
-The formal proposal for the six-axis hardware-software control stack.
+The six-axis hardware-software control stack, with honest scope on what is
+proposed versus what is validated.
 
 ### [3. Universal Vulnerability Matrix](./universal-vulnerability-matrix.md)
-A cross-model study showing logic inversion success rates across four Tier 1 LLMs.
+A cross-model summary of logic-inversion behavior across four Tier-1 models, 
+read as documented forensic scenarios, not a population benchmark.
+
+### [4. Verification](./verification.md)
+SHA-256 records establishing the public, timestamped integrity of the documents.
+
+### [5. Prior Art & Public Disclosure Record](./LEGAL.md)
+The disclosure history, leading with the February 26, 2026 first disclosure.
 
 ---
 
-## Audit Workflow
-1. **Vector Identification:** Mapping semantic bypasses using high-authority persona adoption.
-2. **Deterministic Gating:** Proposing hardware-level interrupts (NMI) via the SSA logic.
-3. **Forensic Attribution:** Analyzing latent space failures to refine safety regularizations.
+## Audit workflow
+1. **Vector identification**, mapping semantic bypasses via high-authority
+   persona framing.
+2. **Deterministic gating**, the proposed SSA logic for intercepting
+   contradictions of source ground truth.
+3. **Forensic documentation**, redacted, hash-anchored transcripts and
+   deliverables, published for independent review.
+
+---
+
+The SSA was first disclosed February 26, 2026; a more rigorous V1.3 is in
+development. The full specification and operative detail are held privately and
+available to discuss, GitHub Discussions or frank.bruno.oe@gmail.com.
