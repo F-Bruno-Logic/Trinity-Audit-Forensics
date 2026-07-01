@@ -27,3 +27,14 @@ The Phase 0 prototype validates the **comparison logic**: given a pair of hand-a
 What is withheld and why: the ground truth annotation corpus, the extraction schema, and the Scenario 5b validation data are held privately. These represent the core IP of the project: the methodology for translating raw contract language into structured relational triples that the engine can evaluate. The comparison logic is open because that is the verifiable claim. The extraction layer is where the substantive engineering problem lives, and it is the piece that separates a proof of concept from a production tool.
 
 The [repository documentation](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/tree/main/phase0-prototype) states the prototype's scope correctly. The Substack post did not make the distinction clearly enough. A scoping note has been added to the post. Researchers or engineers interested in collaborating on the extraction layer or the broader architecture can reach me at frank.bruno.oe@gmail.com or through [GitHub Discussions](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/discussions).
+
+## 5. Outdated Licensing Reference: "The Sentinel Has Teeth" (English and Spanish)
+**Correction Date:** July 1, 2026
+
+The April 8, 2026 Substack post ["The Sentinel Has Teeth: Phase 0 Is Live"](https://sovereignlogicarchitect.substack.com/p/the-sentinel-has-teeth-phase-0-is), and its Spanish counterpart ["El Centinela tiene dientes,"](https://sovereignlogicarchitect.substack.com/p/el-centinela-tiene-dientes) stated in the IP Posture section that the Phase 0 codebase was licensed under the Business Source License 1.1. That was accurate when the post was written.
+
+It became outdated on June 26, 2026, when the public repository moved to Creative Commons Attribution 4.0 International (CC BY 4.0). The Substack posts were not updated at the time.
+
+Both posts have now been corrected to state CC BY 4.0 as the current license, with attribution to Frank Bruno required on reuse. The substance of what is public and what remains private IP has not changed: the predicate logic and benchmark results are open, the extraction pattern library and ground truth annotation corpus are not, per the scoping clarification in Entry 4 above.
+
+This entry exists because a stale license reference on a live, indexed post is exactly the kind of small factual drift this file is meant to catch before someone else does.
