@@ -52,10 +52,10 @@ I mention this plainly because the work should be judged on what it actually is,
 
 The SSA framework was first publicly disclosed on **February 26, 2026** (SSA V1.0, a complete research proposal). It has since evolved:
 
-- **V1.0**: February 26, 2026. Foundational research proposal.
-- **V1.1**: finalized March 13, 2026.
+- **V1.0**: February 26, 2026. Foundational research proposal. *(Now public in the `manuscripts` folder).*
+- **V1.1**: Finalized March 13, 2026.
 - **V1.2**: April 3, 2026. Current public framing (see [methodology](./methodology)).
-- A more mathematically rigorous formulation (**V1.3**) is in development.
+- **V1.3**: Current architecture variant.
 
 The public Substack series and this repository's commit history and SHA-256 hashes establish the public, timestamped record of this work. Cryptographic verification records are in [methodology/verification.md](./methodology/verification.md).
 
