@@ -38,3 +38,12 @@ It became outdated on June 26, 2026, when the public repository moved to Creativ
 Both posts have now been corrected to state CC BY 4.0 as the current license, with attribution to Frank Bruno required on reuse. The substance of what is public and what remains private IP has not changed: the predicate logic and benchmark results are open, the extraction pattern library and ground truth annotation corpus are not, per the scoping clarification in Entry 4 above.
 
 This entry exists because a stale license reference on a live, indexed post is exactly the kind of small factual drift this file is meant to catch before someone else does.
+
+## 6. Factual Correction: Phase 0 Extraction Automation
+**Correction Date:** July 9, 2026
+
+Entry 4 above states that "the automated extraction step, parsing raw text into structured triples, is not implemented." That was accurate as of the original Phase 0 scoping clarification. It is no longer accurate and should have been corrected sooner.
+
+The rule-based extractor is implemented and has run automated extraction across the full 50-contract CUAD corpus. Automated extraction exists. The honest boundary is not that it doesn't exist, but that it hasn't been independently validated against ground truth by a third party. Those are different claims, and Entry 4 stated the wrong one.
+
+What remains private is unchanged: the annotation corpus, the extraction schema, and the validation data. What changes is the description of what the private codebase actually does. This entry exists because Entry 4's wording was allowed to sit inaccurate for longer than it should have once the underlying understanding corrected, which is exactly the kind of drift this file exists to catch.
