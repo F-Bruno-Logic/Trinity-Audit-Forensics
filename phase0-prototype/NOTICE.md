@@ -23,7 +23,8 @@ The code is anchored to the public forensic record via the SHA-256 hashes in
 [methodology/verification.md](../methodology/verification.md). The SSA
 manuscripts that predate this implementation are sealed by the hashes recorded
 there as well. The framework was first publicly disclosed February 26, 2026
-(V1.0); this prototype corresponds to the V1.2 line.
+(V1.0); the Component 3 comparison logic and its recall figures are unchanged
+through V1.3.1 and remain the current line.
 
 ## What is held privately
 The predicate engine is fully inspectable here. Held privately, and available to
