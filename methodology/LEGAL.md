@@ -12,7 +12,7 @@ or legal advice.
 The SSA framework was first publicly disclosed by Frank Bruno on
 **February 26, 2026**, in the SSA V1.0 research proposal. Subsequent versions
 (V1.1, March 13, 2026; V1.2, April 3, 2026) build on that foundation, and a
-more mathematically rigorous version (V1.3) is in development.
+more mathematically rigorous version (V1.3.1) was finalized July 10, 2026.
 
 The associated, timestamped articles on the
 [Sovereign Logic Architect Substack](https://sovereignlogicarchitect.substack.com/),
