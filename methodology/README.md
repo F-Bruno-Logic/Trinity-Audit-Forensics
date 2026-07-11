@@ -6,11 +6,11 @@ it with attribution to Frank Bruno.
 
 ## Core documents
 
-### [1. SSA V1.2 Abstract](./ABSTRACT.md)
+### [1. SSA V1.3.1 Abstract](./ABSTRACT.md)
 High-level overview of the Sovereign Sentinel Architecture, including Axis 6
 (DTA-FCIR) for fact-consistency intervention.
 
-### [2. SSA Technical Framework (V1.2)](./SSA-Framework-V1.md)
+### [2. SSA Technical Framework (V1.3.1)](./SSA-Framework-V1.md)
 The six-axis hardware-software control stack, with honest scope on what is
 proposed versus what is validated.
 
