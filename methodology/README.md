@@ -36,6 +36,6 @@ The disclosure history, leading with the February 26, 2026 first disclosure.
 
 ---
 
-The SSA was first disclosed February 26, 2026; a more rigorous V1.3 is in
-development. The full specification and operative detail are held privately and
+The SSA was first disclosed February 26, 2026; a more rigorous V1.3.1 was
+finalized July 10, 2026. The full specification and operative detail are held privately and
 available to discuss, GitHub Discussions or frank.bruno.oe@gmail.com.
