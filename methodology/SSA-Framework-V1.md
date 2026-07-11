@@ -106,7 +106,7 @@ integrated with the Axis 5 arbitration layer.
 - **V1.0**, February 26, 2026. Foundational research proposal (first public disclosure).
 - **V1.1**, March 13, 2026.
 - **V1.2**, April 3, 2026 (this overview).
-- **V1.3**, in development. A more mathematically rigorous formulation of the framework.
+- **V1.3.1**, finalized July 10, 2026. A more mathematically rigorous formulation of the framework.
 
 For the fuller technical abstract, see
 [SSA V1.2 Abstract (PDF)](./SSA_v1.2_Abstract.pdf) and [ABSTRACT.md](./ABSTRACT.md).
