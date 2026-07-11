@@ -6,8 +6,8 @@ As an independent security architect specializing in **Sovereign Sentinel Archit
 ## Supported Versions
 | Version | Supported          |
 | ------- | ------------------ |
-| v1.2.x  | :white_check_mark: |
-| < v1.1  | :x:                |
+| v1.3.1.x | :white_check_mark: |
+| < v1.3  | :x:                |
 
 ## Reporting a Vulnerability
 I adhere to a strict ethical disclosure policy. If you represent an AI laboratory or organization and wish to discuss specific findings, audit logs, or a model-level inversion not yet cataloged in our logs:
@@ -21,7 +21,7 @@ I adhere to a strict ethical disclosure policy. If you represent an AI laborator
 We are specifically interested in:
 - **Semantic Bypass Vectors** and Latent Space Jailbreaking.
 - **Logic Gate Integrity** (SSA frameworks).
-- **Bypasses of the Axis 4 Martingale Drift Detector.**
+- **Bypasses of the Axis 4 Bayesian Weaver (Sequential CUSUM Drift Detector).**
 - **Logic Inversions in the Axis 6 Deterministic Transition Audit.**
 
 *Note: All Logs in this repository are redacted to protect the safety of the underlying models.*
