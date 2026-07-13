@@ -1,94 +1,92 @@
 # Sovereign Sentinel Architecture V1.3.1
 ## A Six-Axis Deterministic Framework for Frontier AI Safety
 
-**Author:** Frank Bruno, independent AI safety researcher
-**First disclosed:** February 26, 2026 (V1.0). This abstract: V1.3.1, July 10, 2026, a mathematical-rigor revision produced from an adversarial review of V1.3.
+**Author:** Frank Bruno, Independent AI Safety Researcher and Forensic Auditor (frank.bruno.oe@gmail.com)
+**First disclosed:** February 26, 2026 (V1.0). This document: V1.3.1, July 10, 2026, a mathematical-rigor revision produced from an adversarial review of V1.3.
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-> A fuller technical version of this abstract is available as a PDF:
-> [SSA_v1.3.1_Abstract.pdf](./SSA_v1.3.1_Abstract.pdf).
->
-> This is a research proposal. The architecture has not been empirically
-> validated at scale; the specifications are engineering targets whose formal
-> correctness requires evaluation by researchers with the relevant expertise.
+> This is a research proposal. The architecture has not been empirically validated at scale; the specifications presented are engineering targets whose formal correctness requires evaluation by researchers with the relevant technical expertise. Collaborative partnership with a Tier 1 AI safety team is sought for empirical validation, beginning with the still-open Component 1 and 2 extraction layer at Axis 6.
 
 ### Abstract
-The Sovereign Sentinel Architecture (SSA) V1.3.1 is a proposed defense-in-depth
-control framework for frontier language model deployments. It addresses three
-documented failure modes:
 
-1. **Safety Amnesia**, erosion of safety constraints across extended context.
-2. **Stochastic Sabotage**, incremental assembly of prohibited knowledge
-   through individually benign queries.
-3. **Goal-Oriented Factual Inversion (GOFI)**, a model correctly identifying a
-   fact in an early turn, then producing output contradicting it once a
-   persuasive goal frame is introduced.
+The Sovereign Sentinel Architecture (SSA) V1.3.1 is a proposed defense-in-depth control framework for frontier language model deployments, operating across six named abstraction levels: mathematical, electronic, cryptographic, statistical-behavioral, institutional, and semantic-referential. It addresses three documented failure modes:
 
-GOFI was identified through empirical forensic audit of four deployed frontier
-models across party-inverted scenarios in English and Spanish. The
-cryptographically anchored transcripts and model deliverables are publicly
-archived in this repository for independent verification.
+1. **Safety Amnesia**, erosion of safety constraints across extended context windows.
+2. **Stochastic Sabotage**, incremental assembly of prohibited knowledge through individually benign queries.
+3. **Goal-Oriented Factual Inversion (GOFI)**, a non-adversarial failure mode in which a model correctly identifies factual ground truth in early turns, then generates output directly contradicting that ground truth once a persuasive goal frame is introduced.
 
-The architecture's central claim is confinement of probabilistic sensing, not
-its replacement. Every axis still has a learned, statistical, or corpus-bounded
-sensing component; what the architecture adds is a deterministic, auditable,
-fail-closed actuator behind each sensor, with that sensor's coverage boundary
-stated as a first-class limitation rather than left implicit.
+GOFI was identified through empirical forensic audit (Scenario 5, March 2026) conducted against four deployed frontier models (Gemini, ChatGPT, Claude, and Copilot) across party-inverted contract-analysis scenarios in English and Spanish. All four models exhibited directional compliance failures; one model demonstrated correct first-turn identification of contractual risk followed by a factually inverted second-turn deliverable directionally consistent with the prompted persuasive goal. Cryptographically anchored transcripts and all model deliverables from Scenario 5 are publicly archived in this repository for independent verification.
 
-### Six-axis overview
+The architecture's central claim, restated precisely under this revision, is confinement of probabilistic sensing, not its replacement. In every axis the component deciding whether an enforcement condition holds is learned, statistical, corpus-bounded, or not yet built; the deterministic element is the actuator behind it. Each axis relocates its residual uncertainty into a named sensor with a measurable operating characteristic, places a deterministic, auditable, fail-closed actuator behind that sensor, and states the sensor's coverage boundary as a first-class limitation rather than an implicit assumption.
 
-- **Axis 1, CLR-CRAE:** safety invariants as Lagrangian constraints on the
-  training objective, re-instantiated as an inference-time probe ensemble.
-  Robustness is specified two ways: an exact deterministic margin certificate
-  where the probe geometry permits it, and an empirical adversarial-evaluation
-  protocol elsewhere. One of the three probes is benign-referenced (trained
-  only on benign activation statistics), giving the ensemble a mechanistically
-  independent backup for gaps in the violation taxonomy.
-- **Axis 2, FSA-HI:** a formally specified automaton on a dedicated FPGA
-  co-processor with a non-maskable hardware interrupt, over a canonicalized
-  event alphabet with a stated, non-certified boundary against novel
-  encodings.
-- **Axis 3, Cryptographic Expertise Attestation** (legacy label ZKP-ETV-HOA):
-  deterministic verification of externally issued credentials via selective
-  disclosure, rather than the withdrawn Zero-Knowledge Proof characterization
-  used in earlier editions. A domain-expertise quiz is retained only as a
-  secondary anti-sharing and liveness check.
-- **Axis 4, Bayesian Weaver:** a sparse-autoencoder session monitor with a
-  single sequential change-point statistic (CUSUM with an anytime-valid
-  e-process false-alarm guarantee) over a restricted, corpus-informed
-  baseline, plus a multi-scale allowance bank that narrows, without
-  eliminating, the residual slow-drift evasion corridor.
-- **Axis 5, CCE-RAE:** a formally verified rule-based arbitration engine for
-  conflict resolution and human escalation, with disposition timing sized from
-  a published reviewer-demand model rather than a fixed guarantee, fail-closed
-  hold semantics, and two-person release for held contradictions.
-- **Axis 6, DTA-FCIR:** the primary GOFI intervention; an isolated module
-  builds an immutable Structured Fact Registry and a contradiction engine blocks
-  output that inverts it, with an added hold for registry-referenced output
-  lacking a verified affirmation. This is the axis with a working Phase 0
-  prototype (the comparison logic; the automated extraction layer is specified
-  but not yet built, see [/phase0-prototype](../phase0-prototype/) for honest
-  scope).
+### V1.3.1 Change Note
 
-**Tiered activation** (new in V1.3.1): disposition intensity activates by
-severity tier (ORDINARY, WATCH, PROTECTED) rather than uniformly, on a
-promote-only ratchet, so that ordinary traffic is not held at the same
-intensity as declared high-stakes surfaces. Tiering only ever adds protection
-above an always-on floor; it never subtracts from it.
+V1.3.1 is produced from an adversarial review of V1.3 and narrows several global claims to their supported scope. The composition guarantee is restated as class-scoped rather than universal: every minimal cut set across the six axes has size at least two where at least two axes share sensing jurisdiction, and for the fast-window semantic class exactly one axis (Axis 6) has jurisdiction. The abstraction-level count drops the word independent; two correlation pairs are documented explicitly. The Axis 1 robustness claim moves from a randomized-smoothing "certified robustness" statement to an exact deterministic margin-certificate path plus an empirical adversarial-evaluation protocol, since the probe ensemble is deterministic. The Axis 3 gate is restated as deterministic verification of externally issued credentials via selective disclosure (BBS+-class signatures), not a revived Zero-Knowledge Proof claim. Axis 4 adds a multi-scale drift bank and an early-window check narrowing, without eliminating, the residual slow-drift evasion corridor to a calibrated instrument floor. Axis 5 adds fail-closed hold semantics with two-person release, replacing fixed 90/60-second disposition windows with a capacity-derived availability target. A new Tiered Activation and Severity Gate section governs disposition intensity by declared and inferred severity, on the principle that tiering only ever adds protection above an always-on floor and never subtracts from it.
+
+### Methodology and Disclosure
+
+In alignment with emerging standards for transparent AI research, the author acknowledges the use of Large Language Models as generative partners in formalizing the mathematical and technical specifications of the six-axis framework from architectural requirements, safety invariants, and logic constraints the author directed, and in supporting technical drafting across English and Spanish. The GOFI failure mode was identified through empirical forensic audit of deployed frontier models; the audit methodology, the party-inversion test design, and the interpretation of model outputs are the work of the human author. The author is responsible for the conceptualization of the Sovereign Sentinel Architecture, the identification of the GOFI failure mode, and the functional requirements governing each axis. The mathematical formalizations presented are proposed implementation targets developed through human-directed AI collaboration; their formal correctness and empirical validity require evaluation by specialized implementation researchers, which is exactly the collaboration this proposal seeks.
+
+### Six-Axis Logic Overview
+
+**Axis 1 — Constitutive Lagrangian Regularization with Certified-Robust Activation Enforcement (CLR-CRAE)**
+
+Safety invariants are encoded as Lagrangian constraints on the training objective: L(w, λ) = f(w) + Σᵢ λᵢ gᵢ(w), with dual-ascent updates λᵢ ← max(0, λᵢ + ηᵢ gᵢ(w)). Convergence is certified at a locally converged solution via the dual-gap criterion Δ(w*, λ*) ≤ εgap, a practical target for non-convex training rather than a global convex-duality guarantee. The same constraint structure is re-instantiated at inference as a heterogeneous probe ensemble at residual-stream layers {L/4, L/2, 3L/4}: two taxonomy-supervised probes (linear boundary, SAE feature dictionary) and one benign-referenced Mahalanobis probe, calibrated only on benign activation statistics with no violation-taxonomy labels, giving the ensemble a mechanistically independent backup for gaps in the taxonomy. A two-of-three vote at a shared depth, or any single depth alarming, halts the system. Robustness is specified two ways: exact per-input deterministic margin certificates where the probe geometry permits them (a Ledoit-Wolf shrinkage-regularized covariance estimator gives the Mahalanobis path an explicit, computable conditioning floor), and an empirical adversarial-evaluation protocol under an activation-anchored perturbation budget elsewhere. The randomized-smoothing "certified robustness" statement carried by earlier editions is withdrawn: the ensemble is deterministic and injects no noise, so it is not a smoothed classifier in the Cohen et al. (2019) sense.
+
+*References: Boyd & Vandenberghe (2004), Convex Optimization, Ch. 5. Achiam et al. (2017), Constrained Policy Optimization, ICML. Cohen, Rosenfeld, and Kolter (2019), Certified Adversarial Robustness via Randomized Smoothing, ICML (cited as related work only; this ensemble is deterministic).*
+
+**Axis 2 — Finite Safety Automaton with Hardware Interrupt (FSA-HI)**
+
+A formally specified directed graph G = (V, E), |V| ≤ 2¹⁶, runs on a dedicated FPGA co-processor in true parallel with the primary inference pipeline, recognizing a regular language over a canonicalized event alphabet (normalization, lemma mapping, gazetteer substitution, bounded n-gram compaction). State transitions are O(1). On entry to any prohibited state, the FPGA issues a Non-Maskable Interrupt severing the inference pipeline independently of any software-layer decision, with an issuance-latency target of at most 10 microseconds verified by FPGA cycle-counter capture, anchored asynchronously to the TPM audit chain. Coverage target: at least 94% recall on the red-team corpus, a known-corpus figure carrying no claim against novel encodings or reorderings outside the canonicalizer's compiled equivalence classes; the residual 6% gap is formally characterized in the deployment safety case.
+
+**Axis 3 — Cryptographic Expertise Attestation with Human-Origin Attestation (legacy label ZKP-ETV-HOA)**
+
+Earlier editions described this gate as a Zero-Knowledge Proof; that characterization is withdrawn as imprecise, since the protocol does not carry the completeness, soundness, and zero-knowledge properties of a ZKP system. The load-bearing gate is deterministic verification of externally issued credentials presented as verifiable credentials with selective disclosure (BBS+-class signatures): the holder proves possession of an issuer-signed credential attribute, licensure or institutional affiliation, without disclosing identity, and the verifier's work is signature-chain checking rather than judgment. A domain-expertise challenge-response quiz is retained only as a secondary in-session anti-sharing and liveness check, because a knowledge quiz cannot distinguish a human expert from a human non-expert proxying a frontier model. Domains without an issuing body fall back to quiz-only access at an explicitly lower assurance class. Human-Origin Attestation is anchored in hardware-attested platform authentication (FIDO2/WebAuthn); keystroke-dynamics timing is demoted to an advisory signal pending a Phase 2 calibration correction, since the timing window stated in earlier drafts was arithmetically inverted relative to its intent. Successful verification yields the Epistemic Trust Coefficient τₑ ∈ [0,1], domain-specific and valid for 30 days. τₑ verifies expertise and human origin only; conflating it with intentional trust (τᵢ, Axis 4) is an architecturally guarded privilege-escalation vulnerability.
+
+*Reference: Goldreich, Micali, and Wigderson (1991), Proofs that Yield Nothing but their Validity, JACM (cited as related work only; this attestation protocol does not claim the zero-knowledge property).*
+
+**Axis 4 — The Bayesian Weaver: Sparse Autoencoder Session Monitor with Sequential Change-Point Drift Detection**
+
+Session-level drift is monitored through a single sequential change-point test on a bounded, length-standardized per-turn divergence statistic derived from sparse autoencoder (SAE) feature activations, run asynchronously in the inter-turn window and contributing nothing to the token-generation critical path. The baseline P₀ is constructed over a restricted, frequency-floored feature support with a corpus-informed Dirichlet prior and a single aggregate OTHER bin for off-support mass, rather than as a raw empirical distribution over the full 32,768-feature dictionary, which an unbounded KL divergence against a three-turn baseline cannot support. The CUSUM statistic, the allowance-adjusted partial sum minus its running minimum, is expressed as an e-process, a nonnegative supermartingale restarted at each candidate change time, giving a time-uniform false-alarm guarantee under Ville's inequality (Shin, Ramdas, and Rinaldo, 2023) rather than the martingale/CUSUM equivalence claimed in earlier editions. A multi-scale allowance bank requires sub-detection drift to sit under the scale-specific allowance at every monitored block length simultaneously, narrowing the single-scale evasion corridor to a calibrated instrument floor rather than eliminating it. An early-window check narrows, without closing, the three-turn baseline's blind spot: an activation-normal event, including a fast-window GOFI event, presents no divergence to any activation-side statistic in any window and remains Axis 6's jurisdiction alone. The Intentional Trust Coefficient τᵢ(t) = τᵢ(t−1) · λ^δ(t) decays under severity-weighted drift events and a sub-threshold occupancy term, so that riding just under the detection surface still costs standing in τᵢ.
+
+*References: Page (1954), Continuous Inspection Schemes, Biometrika. Lorden (1971), Procedures for Reacting to a Change in Distribution, Annals of Mathematical Statistics. Shin, Ramdas, and Rinaldo (2023), E-Detectors: A Nonparametric Framework for Sequential Change Detection.*
+
+**Axis 5 — The Causal Cross-Examiner: Rule-Based Arbitration Engine with Independent Audit Summarization (CCE-RAE)**
+
+Conflict resolution between all axes is handled by a formally specified rule-based arbitration engine, not a language model, with decision logic targeted for mechanical verification using an SMT solver (Z3). Escalations place the session or response into an automatic, fail-closed hold at machine timescale; the human role is disposition of the hold, never the catch. Disposition timing is a capacity-derived availability target sized from a published reviewer-demand model (λ equals the sum over axes of per-response flag rates times traffic), replacing the fixed 90- and 60-second windows of earlier editions, which were mutually unsatisfiable from a single reviewer pool at the stated flag-rate targets. Release of a held contradiction or undischarged response requires the concurrence of two reviewers adjudicating on the structured evidence record; a single reviewer may extend a hold or terminate a session but may not release one. Evidence packages are accompanied by summaries from a dedicated frozen audit model (at most 7B parameters, distinct weight provenance), with independence from the primary model treated as a measurable decorrelation requirement rather than a categorical assumption; the human reviewer adjudicates directly on the structured evidence record, and the natural-language summary is a convenience, never the basis of the decision. The Einstein Exception permits sessions above τₑ > 0.95 and τᵢ > 0.88 to request a 72-hour human quorum review; an Irreversibility Floor, covering CBRN synthesis, critical-infrastructure modification, and mass-scale data exfiltration, cannot be unlocked by any trust-coefficient combination without quorum.
+
+*Reference: de Moura and Bjorner (2008), Z3: An Efficient SMT Solver, TACAS.*
+
+**Axis 6 — Deterministic Truth-Anchor with Fact-Claim Inversion Recognition (DTA-FCIR)**
+
+Primary intervention for Goal-Oriented Factual Inversion. Upon document ingestion, an architecturally isolated extraction module constructs an immutable Structured Fact Registry (SFR) encoding relational triples {clause_id, entity, beneficiary, value, direction}, frozen at session initialization and inaccessible to the primary model. Before response emission, a claim extractor encodes output assertions in the identical schema, receiving only the proposed response text and the SFR entity vocabulary, no session history and no persona framing. A formally specified Contradiction Engine evaluates First-Order Logic predicates (CONTRADICTS_BENEFICIARY, CONTRADICTS_DIRECTION, CONTRADICTS_VALUE) over each claim against the registry; a CONTRADICTION signal blocks emission and routes a structured evidence record to Axis 5. Under this revision, a response that references a registered clause and recommends acting on it without a verified, consistent claim is held as UNDISCHARGED rather than passing silently, closing part of the earlier paraphrase-evasion gap; a source-side registry miss, an untagged clause, remains a documented residual. Cross-response claim splitting is addressed by accumulating emitted claims registry-side across the session.
+
+The Contradiction Engine (Component 3) is complete, SHA-256 sealed, and validated at 98.7% clause-pair recall (99.5% triple-level) on hand-annotated triples from standardized commercial contracts (see [recall_report.txt](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/phase0-prototype/recall_report.txt)), including 8 of 8 detections on the documented Scenario 5b direct-inversion form (see [scenario5b_results.txt](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics/blob/main/phase0-prototype/scenario5b_results.txt)); this measures the comparison logic against hand-annotated ground truth, not an end-to-end automated extraction system. The automated extraction layer (Components 1 and 2) that would populate the registry at runtime is specified but not yet built; registry population is currently manual. See [/phase0-prototype](../phase0-prototype/) for the honest scope of what's currently running versus specified.
+
+*Reference: Enderton (2001), A Mathematical Introduction to Logic, 2nd ed., Academic Press, Ch. 2.*
+
+### Tiered Activation and the Severity Gate (New in V1.3.1)
+
+Applying the architecture's heaviest holds, the Axis 5 fail-closed hold and the Axis 6 UNDISCHARGED gate, to every response on a general-purpose stream would freeze more traffic than any deployment could absorb. Disposition intensity therefore activates by severity tier (ORDINARY, WATCH, PROTECTED) on a promote-only ratchet within a session: tier may rise and never falls. The governing principle is stated first because it governs everything else: tiering only ever adds protection above an always-on floor and never subtracts from it. No tier assignment modulates the Axis 2 hardware interrupt, the Axis 1 two-probe hold, Axis 4 alarms and termination, the Irreversibility Floor, or an Axis 6 CONTRADICTION hold wherever a registry exists; a tier-gate miss can only fail to add an incremental protection, never strip a floor behavior. Tier assignment is deterministic wherever the stakes are already announced, by declared deployment surface, by registry presence and document class, or by an axis signal the architecture already computes, and learned only for the residual case of high-stakes content arising unheralded on a general surface.
+
+### Integrity and Verification
+
+This document describes the Sovereign Sentinel Architecture V1.3.1 at a level of abstraction suitable for public review. Specific implementation details, including SFR extraction parameters, probe ensemble weight configurations, and Scenario 5 audit corpus specifications, are held in the full private specification. Full documentation is available to verified researchers and institutions following professional engagement.
+
+This document's integrity is anchored to the canonical V1.3.1 specification's hash, recorded below and in [verification.md](./verification.md), consistent with the practice for prior abstracts in this series.
+
+| Field | Value |
+|---|---|
+| File | `SSA_v1.31_07_10_2026_Final.pdf` (canonical V1.3.1 specification this document summarizes) |
+| Hash (SHA-256) | `1F4C54660F16186F98FA6D33238EB2B00C1E53CB861729431223B917D7844AE5` |
+| Algorithm | SHA-256 |
+| Date | July 10, 2026 |
+
+Independent verification: confirm the hash above against the entry recorded at the [Trinity-Audit-Forensics repository](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics).
 
 ### Version history
+
 - **V1.0**, February 26, 2026 (first public disclosure).
 - **V1.1**, March 13, 2026.
 - **V1.2**, April 3, 2026.
-- **V1.3.1**, July 10, 2026 (this abstract). Produced from an adversarial
-  review of V1.3; narrows several global claims to their supported scope and
-  adds tiered activation, a source-anchored fail-closed gate at Axis 6, a
-  multi-scale drift bank at Axis 4, and fail-closed hold semantics with
-  two-person release at Axis 5.
-
-### Integrity and verification
-This abstract describes the architecture at a level suitable for public review.
-Specific implementation detail, SFR extraction parameters, probe ensemble
-configurations, and audit corpus specifications, is held in the full private
-specification, available to discuss through direct engagement. Document
-integrity is verified by the SHA-256 records in [verification.md](./verification.md).
+- **V1.3.1**, July 10, 2026 (this document). Produced from an adversarial review of V1.3; narrows several global claims to their supported scope and adds tiered activation, a source-anchored fail-closed gate at Axis 6, a multi-scale drift bank at Axis 4, and fail-closed hold semantics with two-person release at Axis 5.
