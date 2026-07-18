@@ -123,8 +123,7 @@ clause and recommends acting on it without a verified, consistent claim is held
 as an additional "undischarged" case rather than passing silently, closing part
 of the earlier paraphrase-evasion gap. The comparison logic (Component 3) is
 complete, SHA-256 sealed, and the axis's working Phase 0 artifact; the
-automated extraction layer that would populate the registry at runtime
-(Components 1 and 2) is specified but not yet built. See Section 4 for the
+runtime version of the extraction layer that would populate the registry live at session initialization (Components 1 and 2) is specified but not yet built; a rule-based batch extractor exists offline and has run across the 50-contract corpus (CORRECTIONS.md Entry 6). See Section 4 for the
 honest scope of what Phase 0 demonstrates.
 
 ## 3. Tiered activation
@@ -171,10 +170,11 @@ A working Python implementation of the Axis 6 Component 3 comparison logic.
   from standardized commercial contracts, including 8 of 8 detections on the
   documented Scenario 5b direct-inversion form.
 - This measures the comparison logic against a steered-generation reference, not an
-  end-to-end automated extraction system. The automated extractor that would
-  populate the registry at runtime (Components 1 and 2) is specified but not
-  yet built; registry population is currently manual. This is a documented
-  boundary, not an implied capability.
+ end-to-end automated extraction system. A rule-based batch extractor exists
+  offline and has run across the 50-contract corpus (CORRECTIONS.md Entry 6);
+  the runtime version that would populate the registry live at session
+  initialization (Components 1 and 2) is specified but not yet built. This is
+  a documented boundary, not an implied capability.
 - Paraphrase evasion, reaching an inverted conclusion through indirect
   reasoning with no anchorable reference to the tagged clause, remains an open
   problem outside Phase 0 scope; direct references without a verified
