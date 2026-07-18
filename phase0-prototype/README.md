@@ -32,7 +32,7 @@ This is a proof of concept. What it actually demonstrates:
   a low false-positive rate are both genuinely good, but neither is the same as
   "catches GOFI in the wild at scale."
 - **The detection results are on constructed cases.** The inversion-detection
-  results are on hand-built adversarial cases, not a blind held-out benchmark.
+  results are on AI-generated, human-steered adversarial cases, not a blind held-out benchmark.
 - **The extractor is rule-based and brittle by design.** It uses regex and
   keyword patterns tuned to the contract language tested. It is expected to be
   less reliable on unfamiliar phrasing. This is a documented boundary.
