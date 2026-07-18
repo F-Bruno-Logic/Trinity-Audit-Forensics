@@ -59,3 +59,20 @@ SSA V1.3.1 was hash-anchored on July 11, 2026. The following three items were id
 **7b. Appendix A cross-lingual verb.** The Appendix A summary box states that cross-lingual testing produced equivalent results "confirming the failure mode is not a language-specific artifact." Two languages support "consistent with," not confirmation. The hostile review requested this verb change and it was not applied before anchoring. "Consistent with" is the accurate characterization. This sentence is errata pending the next revision.
 
 This entry exists because a hashed document cannot be silently edited, and these items should not wait for someone else to find them. The corrections are documented here, the governing language in each case is identified, and the fixes are queued for the next versioned revision.
+
+## 8. Factual Correction: Reference-Triple Provenance (All Phase 0 Documents)
+**Correction Date:** July 17, 2026
+
+Multiple documents — this repository's ABSTRACT.md and SSA-Framework-V1.md, the anchored V1.3.1 abstract, Entry 4 above, and the grant application — describe the Phase 0 reference triples as "hand-annotated" or "hand-constructed." That word is inaccurate. It propagated from early AI-generated draft language that was not caught until a repo-wide provenance review on this date.
+
+**What actually happened:** the reference triples — for both the CUAD recall run and the Scenario 5b detection run were produced by AI generation under heavy human steering and reviewed by the author. They were not hand-built from scratch, and they were not independently hand-verified line-by-line against the source contracts.
+
+**Why this was the right way to build Phase 0, and what it does and does not show:** Phase 0's purpose was to build and prove the plumbing and the logic — that a rule-based extractor and a deterministic comparison engine can run end-to-end on real contracts and flag contradictions against a frozen factual record. AI-steered reference generation is a legitimate way to stand up and exercise that mechanism at prototype stage. What Phase 0 demonstrates is that the mechanism works. What it deliberately does not yet include is independent, human-verified ground truth — and building that in is an essential, designed-in step of the production buildout, not an afterthought. It is precisely the step the next phase exists to add.
+
+**Corrected characterization, by dataset:**
+- **CUAD (98.7% clause-pair recall, 99.5% triple-level):** the reference was produced by the same rule-based extraction approach being measured. This is a consistency/repeatability result — evidence that the extractor runs at scale on 50 real contracts and produces stable, repeatable output — not an independent accuracy measurement.
+- **Scenario 5b (8/8 detection):** the reference was produced by a separate AI-steered process, not by the Contradiction Engine under test. This is agreement between two distinct processes on the same contradiction calls — preliminary at n=8 (exact binomial 95% lower bound 63.1%) — not validated ground truth.
+
+**Reconciliation with Entry 4:** Entry 4 stated both that automated extraction "is not implemented" (corrected in Entry 6) and that Phase 0 triples are "hand-constructed" (corrected here). Both halves of Entry 4's original description are now superseded: the extractor exists and has run (Entry 6), and the reference triples were AI-steered rather than hand-built (this entry). Entry 4 remains below as dated historical record; this entry governs.
+
+This entry exists because a single inaccurate word was allowed to propagate across every public document describing the Phase 0 results. Catching and correcting it repo-wide, is exactly what this file is for.
