@@ -21,7 +21,7 @@ inspect, and build on this with attribution to Frank Bruno.
 This is a proof of concept. What it actually demonstrates:
 
 - **The contradiction engine works on clean structured input.** It passes the
-  five hand-constructed validation cases it was built against, and it correctly
+  five AI-generated, human-steered validation cases it was built against, and it correctly
   produces no false positive on a clean public contract corpus. The deliberate
   false-positive test case (a correct model output that should *not* fire)
   confirms the engine stays silent when it should.
