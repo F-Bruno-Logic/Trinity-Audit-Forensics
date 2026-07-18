@@ -167,10 +167,10 @@ A working Python implementation of the Axis 6 Component 3 comparison logic.
 
 **Honest scope of what Phase 0 demonstrates:**
 - The comparison logic is complete, SHA-256 sealed, and validated at 98.7%
-  clause-pair recall (99.5% triple-level) on hand-annotated relational triples
+  clause-pair recall (99.5% triple-level) on AI-generated, human-steered reference triples
   from standardized commercial contracts, including 8 of 8 detections on the
   documented Scenario 5b direct-inversion form.
-- This measures the comparison logic against hand-annotated triples, not an
+- This measures the comparison logic against a steered-generation reference, not an
   end-to-end automated extraction system. The automated extractor that would
   populate the registry at runtime (Components 1 and 2) is specified but not
   yet built; registry population is currently manual. This is a documented
