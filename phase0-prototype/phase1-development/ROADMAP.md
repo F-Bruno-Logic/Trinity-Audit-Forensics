@@ -57,7 +57,7 @@ Finite Safety Automaton state graph design and FPGA co-processor interface speci
 ### Completed
 
 **Phase 0 — Axis 6: DTA-FCIR Contradiction Engine**  
-Working Python implementation. Validated at 98.7% clause-pair recall on proprietary held-out evaluation corpus. 100% detection rate (8/8) on Scenario 5b goal-oriented factual inversion. SHA-256 sealed. BSL 1.1 licensed. Public disclosure: April 7, 2026.
+Working Python implementation. Comparison logic ran at 98.7% clause-pair recall against the 50-contract CUAD corpus — a consistency measure against an AI-generated, human-steered reference produced by the same extraction approach, not an independent-accuracy or held-out result (see CORRECTIONS.md Entry 8). 8/8 detection on Scenario 5b goal-oriented factual inversion (reference built by a separate steered process, not the engine under test; preliminary at n=8). SHA-256 sealed. CC BY 4.0 licensed. Public disclosure: April 7, 2026.
 
 ---
 
