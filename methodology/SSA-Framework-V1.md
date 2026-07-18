@@ -1,8 +1,8 @@
-# Sovereign Sentinel Architecture (SSA) V1.3.1
+# Sovereign Sentinel Architecture (SSA) V1.3.2
 **A Multi-Tier Control Framework for Frontier AI Safety**
 
 **Author:** Frank Bruno, independent AI safety researcher
-**Status:** Research proposal. First disclosed as V1.0 on February 26, 2026; this is the V1.3.1 overview (July 10, 2026), a mathematical-rigor revision produced from an adversarial review of V1.3.
+**Status:** Research proposal. First disclosed as V1.0 on February 26, 2026; this is the V1.3.2 overview (July 17, 2026), a documentation-correction revision of V1.3.1. The revision corrects Axis 6 Phase 0 provenance and extraction-status wording (CORRECTIONS.md Entries 6 and 8) and makes no change to the architecture, the mathematics, or the results.
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0). Use and build on this with attribution to Frank Bruno.
 
 > **Read this first.** This is a research proposal, not a validated system. The
@@ -188,7 +188,7 @@ Specification scaffolds and interface definitions, including the automated
 Axis 6 extraction layer. Full implementation is gated on compute availability
 and collaborative resources.
 
-### Planned, Phases 2–4
+### Planned, Phases 2 through 4
 Hardware co-processor and FPGA integration (Axis 2); production-scale
 adversarial evaluation (Axis 1); full session-monitoring and SAE training
 (Axis 4), integrated with the Axis 5 arbitration layer; keystroke-dynamics
@@ -201,7 +201,8 @@ recalibration (Axis 3).
 - **V1.0**, February 26, 2026. Foundational research proposal (first public disclosure).
 - **V1.1**, March 13, 2026.
 - **V1.2**, April 3, 2026.
-- **V1.3.1**, finalized July 10, 2026 (this overview). Produced from an adversarial review of V1.3; narrows several global claims to their supported scope, adds tiered activation, a source-anchored fail-closed gate at Axis 6, a multi-scale drift bank and early-window check at Axis 4, fail-closed hold semantics with two-person release at Axis 5, and restates Axis 3's cryptographic gate without the withdrawn Zero-Knowledge Proof claim.
+- **V1.3.1**, finalized July 10, 2026. Produced from an adversarial review of V1.3; narrows several global claims to their supported scope, adds tiered activation, a source-anchored fail-closed gate at Axis 6, a multi-scale drift bank and early-window check at Axis 4, fail-closed hold semantics with two-person release at Axis 5, and restates Axis 3's cryptographic gate without the withdrawn Zero-Knowledge Proof claim.
+- **V1.3.2**, July 17, 2026 (this overview). Documentation-correction revision of V1.3.1: corrects Axis 6 Phase 0 provenance and extraction-status wording (CORRECTIONS.md Entries 6 and 8). No change to architecture, mathematics, or results.
 
 For the fuller technical abstract, see [ABSTRACT.md](./ABSTRACT.md).
 
