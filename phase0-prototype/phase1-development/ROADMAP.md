@@ -31,7 +31,7 @@ Each axis operates at a categorically distinct abstraction level. Defeating any 
 | 3 | Cryptographic Expertise Attestation with Human-Origin Attestation (legacy label ZKP-ETV-HOA) | Cryptographic / Identity | Phase 2 Target |
 | 4 | Bayesian Weaver — Sparse Autoencoder Session Monitor with Sequential Change-Point (CUSUM/e-process) Drift Detection | Statistical-Behavioral | Phase 1 Scaffold Opened |
 | 5 | CCE-RAE — Causal Cross-Examiner with Rule-Based Arbitration Engine | Institutional / Formal Arbitration | Phase 2 Target |
-| 6 | DTA-FCIR — Deterministic Truth-Anchor with Fact-Claim Inversion Recognition | Semantic-Referential | **Phase 0 Complete (comparison logic only; extraction layer not yet built)** |
+| 6 | DTA-FCIR — Deterministic Truth-Anchor with Fact-Claim Inversion Recognition | Semantic-Referential | **Phase 0 Complete (comparison logic validated; batch extractor built and run, Entry 6; runtime registry-population layer not yet built)** |
 
 **Note on sequencing:** Axis 6 was implemented first because it required no GPU infrastructure and produced the highest-value verifiable deliverable — a binary, independently auditable result against a known forensic corpus. Phase 1 opens Axis 4 scaffolding in parallel with Axis 1 and 2 specification work. Full sequencing rationale is documented in [SSA-Framework-V1.md](../../methodology/SSA-Framework-V1.md).
 
