@@ -1,15 +1,15 @@
-# Sovereign Sentinel Architecture V1.3.1
+# Sovereign Sentinel Architecture V1.3.2
 ## A Six-Axis Deterministic Framework for Frontier AI Safety
 
 **Author:** Frank Bruno, Independent AI Safety Researcher and Forensic Auditor (frank.bruno.oe@gmail.com)
-**First disclosed:** February 26, 2026 (V1.0). This document: V1.3.1, July 10, 2026, a mathematical-rigor revision produced from an adversarial review of V1.3.
+**First disclosed:** February 26, 2026 (V1.0). This document: V1.3.2, July 17, 2026, a documentation-correction revision of V1.3.1 (provenance, extraction status, and Entry 7 errata; see V1.3.2 Change Note).
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 > This is a research proposal. The architecture has not been empirically validated at scale; the specifications presented are engineering targets whose formal correctness requires evaluation by researchers with the relevant technical expertise. Collaborative partnership with a Tier 1 AI safety team is sought for empirical validation, beginning with the still-open Component 1 and 2 extraction layer at Axis 6.
 
 ### Abstract
 
-The Sovereign Sentinel Architecture (SSA) V1.3.1 is a proposed defense-in-depth control framework for frontier language model deployments, operating across six named abstraction levels: mathematical, electronic, cryptographic, statistical-behavioral, institutional, and semantic-referential. It addresses three documented failure modes:
+The Sovereign Sentinel Architecture (SSA) V1.3.2 is a proposed defense-in-depth control framework for frontier language model deployments, operating across six named abstraction levels: mathematical, electronic, cryptographic, statistical-behavioral, institutional, and semantic-referential. It addresses three documented failure modes:
 
 1. **Safety Amnesia**, erosion of safety constraints across extended context windows.
 2. **Stochastic Sabotage**, incremental assembly of prohibited knowledge through individually benign queries.
@@ -18,6 +18,10 @@ The Sovereign Sentinel Architecture (SSA) V1.3.1 is a proposed defense-in-depth 
 GOFI was identified through empirical forensic audit (Scenario 5, March 2026) conducted against four deployed frontier models (Gemini, ChatGPT, Claude, and Copilot) across party-inverted contract-analysis scenarios in English and Spanish. All four models exhibited directional compliance failures; one model demonstrated correct first-turn identification of contractual risk followed by a factually inverted second-turn deliverable directionally consistent with the prompted persuasive goal. Cryptographically anchored transcripts and all model deliverables from Scenario 5 are publicly archived in this repository for independent verification.
 
 The architecture's central claim, restated precisely under this revision, is confinement of probabilistic sensing, not its replacement. In every axis the component deciding whether an enforcement condition holds is learned, statistical, corpus-bounded, or not yet built; the deterministic element is the actuator behind it. Each axis relocates its residual uncertainty into a named sensor with a measurable operating characteristic, places a deterministic, auditable, fail-closed actuator behind that sensor, and states the sensor's coverage boundary as a first-class limitation rather than an implicit assumption.
+
+### V1.3.2 Change Note
+
+V1.3.2 is a documentation-correction revision of V1.3.1. It makes no change to the architecture, the mathematics, or the results. It corrects the Axis 6 Phase 0 provenance (the reference triples were AI-generated under heavy human steering and author review, not hand-annotated; the CUAD figure is a consistency measure against a same-approach reference and the Scenario 5b figure is cross-process agreement, not independent accuracy; see CORRECTIONS.md Entry 8), clarifies that a rule-based batch extractor exists while the runtime registry-population layer does not (Entry 6), and folds in the three cut-set sentences and the Appendix A cross-lingual verb previously recorded as errata (Entry 7). The reference corrections completed July 10, 2026 are retained.
 
 ### V1.3.1 Change Note
 
@@ -71,16 +75,16 @@ Applying the architecture's heaviest holds, the Axis 5 fail-closed hold and the 
 
 ### Integrity and Verification
 
-This document describes the Sovereign Sentinel Architecture V1.3.1 at a level of abstraction suitable for public review. Specific implementation details, including SFR extraction parameters, probe ensemble weight configurations, and Scenario 5 audit corpus specifications, are held in the full private specification. Full documentation is available to verified researchers and institutions following professional engagement.
+This document describes the Sovereign Sentinel Architecture V1.3.2 at a level of abstraction suitable for public review. Specific implementation details, including SFR extraction parameters, probe ensemble weight configurations, and Scenario 5 audit corpus specifications, are held in the full private specification. Full documentation is available to verified researchers and institutions following professional engagement.
 
-This document's integrity is anchored to the canonical V1.3.1 specification's hash, recorded below and in [verification.md](./verification.md), consistent with the practice for prior abstracts in this series.
+This document's integrity is anchored to the canonical V1.3.2 specification's hash, recorded below and in [verification.md](./verification.md), consistent with the practice for prior abstracts in this series.
 
 | Field | Value |
 |---|---|
-| File | `SSA_v1.31_07_10_2026_Final.pdf` (canonical V1.3.1 specification this document summarizes) |
-| Hash (SHA-256) | `1F4C54660F16186F98FA6D33238EB2B00C1E53CB861729431223B917D7844AE5` |
+| File | `SSA_v1.3.2_07_17_2026.pdf` (canonical V1.3.2 specification this document summarizes) |
+| Hash (SHA-256) | `29AA03310C8712190DBDE0763AC7ED5323C14C5A02379A6AF331EF4866A6D22C` |
 | Algorithm | SHA-256 |
-| Date | July 10, 2026 |
+| Date | July 17, 2026 |
 
 Independent verification: confirm the hash above against the entry recorded at the [Trinity-Audit-Forensics repository](https://github.com/F-Bruno-Logic/Trinity-Audit-Forensics).
 
@@ -89,4 +93,5 @@ Independent verification: confirm the hash above against the entry recorded at t
 - **V1.0**, February 26, 2026 (first public disclosure).
 - **V1.1**, March 13, 2026.
 - **V1.2**, April 3, 2026.
-- **V1.3.1**, July 10, 2026 (this document). Produced from an adversarial review of V1.3; narrows several global claims to their supported scope and adds tiered activation, a source-anchored fail-closed gate at Axis 6, a multi-scale drift bank at Axis 4, and fail-closed hold semantics with two-person release at Axis 5.
+- **V1.3.1**, July 10, 2026. Produced from an adversarial review of V1.3; narrows several global claims to their supported scope and adds tiered activation, a source-anchored fail-closed gate at Axis 6, a multi-scale drift bank at Axis 4, and fail-closed hold semantics with two-person release at Axis 5.
+- **V1.3.2**, July 17, 2026 (this document). Documentation-correction revision of V1.3.1: corrects Phase 0 reference-triple provenance (Entry 8), clarifies Axis 6 extraction-layer status (Entry 6), and folds in the Entry 7 cut-set and cross-lingual errata. No change to architecture, mathematics, or results.
