@@ -26,7 +26,7 @@ This is the honest framing, stated up front, because the work is only useful if 
 
 **What the SSA framework is.** A proposed defense-in-depth architecture. It is a research proposal, not a validated system. The performance figures in the framework documents are engineering targets derived from theoretical analysis and small-scale feasibility work, not production benchmarks. Formal correctness of the mathematical specifications requires evaluation by researchers with the relevant expertise.
 
-**What the Phase 0 prototype is.** A working proof-of-concept for one axis (the Axis 6 contradiction engine). It is validated on a small set of hand-constructed test cases and a public contract corpus. Specifically:
+**What the Phase 0 prototype is.** A working proof-of-concept for one axis (the Axis 6 contradiction engine). It is validated on a small set of AI-generated, human-steered test cases and a public contract corpus (see CORRECTIONS.md Entry 8 for reference-triple provenance). Specifically:
 
 - The contradiction engine passes the five hand-built validation cases it was designed against, and correctly stays silent (no false positive) on a clean contract corpus.
 - The extractor that feeds it is rule-based (regex and keyword driven). It works well on the contract language it was tuned against and is expected to be brittle on unfamiliar phrasing. This is a documented limitation, not a hidden one.
